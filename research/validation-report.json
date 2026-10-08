@@ -1,0 +1,48 @@
+{
+  "research_date": "2026-10-08",
+  "scope": "公开调研与方案文件校验，不是业务系统/模型性能测评",
+  "source_ledger_checks": [
+    {
+      "file": "domestic-sources.json",
+      "records": 23,
+      "unique_ids": 23,
+      "missing_narrative_source_ids": []
+    },
+    {
+      "file": "international-sources.json",
+      "records": 52,
+      "unique_ids": 52,
+      "missing_narrative_source_ids": []
+    },
+    {
+      "file": "compliance-sources.json",
+      "records": 25,
+      "unique_ids": 25,
+      "missing_narrative_source_ids": []
+    },
+    {
+      "file": "technical-sources.json",
+      "records": 18,
+      "unique_ids": 18,
+      "missing_narrative_source_ids": []
+    },
+    {
+      "file": "agent-engineering-sources.json",
+      "records": 12,
+      "unique_ids": 12,
+      "missing_narrative_source_ids": []
+    }
+  ],
+  "errors": [],
+  "international_quote_checks": {
+    "quotes_checked": 75,
+    "mismatches": []
+  },
+  "markdown_checks": {
+    "files": 13,
+    "relative_links_checked": 16
+  },
+  "business_software_implemented": false,
+  "real_case_data_included": false,
+  "passed": true
+}

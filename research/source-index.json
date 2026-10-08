@@ -1,0 +1,932 @@
+{
+  "summary": {
+    "research_date": "2026-10-08",
+    "product_entries": {
+      "domestic": 8,
+      "international": 10,
+      "combined": 18
+    },
+    "ledger_counts": {
+      "domestic": 23,
+      "international": 52,
+      "compliance": 25,
+      "technical": 18,
+      "agent_engineering": 12
+    },
+    "ledger_records_total": 130,
+    "unique_url_count": 129,
+    "counts_meaning": "记录数含技术/合规/工程资料；同URL在不同台账可能重复。不是全量市场或全部完整读取成功来源数。"
+  },
+  "sources": [
+    {
+      "group": "domestic",
+      "id": "S01",
+      "title": "“小美”智能警务助手",
+      "url": "https://myai.sdic.com.cn/gtznn/kjcx/hxcp/ggaqdsj/rgzn/webinfo/2025/06/1751193342254949.htm",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S02",
+      "title": "“206”系统是个什么系统？其如何成为上海有效防范冤假错案的“利器”",
+      "url": "http://www.chinapeace.gov.cn/chinapeace/c100045/2021-02/17/content_12451709.shtml",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S03",
+      "title": "AI案例 | 让公安机关越用越好的人工智能辅助办案",
+      "url": "https://www.trs.com.cn/ljwm/xwhd/201903/t20190329_8829.html",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S04",
+      "title": "智能辅助办案",
+      "url": "https://www.trs.com.cn/xyfa/ggaq/ga/znfzba/",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S05",
+      "title": "十佳智慧警务典型案例公布 昆山AI智能笔录辅助系统入选",
+      "url": "https://www.suzhou.gov.cn/szsrmzf/szyw/202507/01b8a0aee949478e85187454a54dbee3.shtml",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S06",
+      "title": "人工智能在公安笔录中的应用实践——AI智能笔录辅助系统",
+      "url": "https://anpcn.com:8447/informationDetail?id=168&type=fagy",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S07",
+      "title": "天津市公安局客户案例：警智智能执法办案与管理平台",
+      "url": "https://gridsum.com/cases/163.html",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S08",
+      "title": "公安大模型SaaS化应用解决方案",
+      "url": "https://cloud.baidu.com/solution/gongan.html",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S09",
+      "title": "科大讯飞助力打造安徽检察人工智能辅助办案系统",
+      "url": "https://edu.iflytek.com/about-us/news/company-news/2003.html",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S10",
+      "title": "自主建模 使用指南 V1.0",
+      "url": "https://mkp-res.hc-cdn.com/marketplace/public/app/attachment/20220708/99ce4011-45a2-4d43-ab18-5eb1b1b741b5/2207080523036603.pdf",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S11",
+      "title": "AtlasGraph / AtlasStudio",
+      "url": "https://atlasgraph.haizhi.com/zh/",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S12",
+      "title": "Qiko大模型智能本",
+      "url": "https://myai.sdic.com.cn/gtznn/kjcx/hxcp/ggaqdsj/rgzn/webinfo/2025/06/1751193342205451.htm",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S13",
+      "title": "全新至强平台为海鑫指掌纹识别比对方案带来性能加速度",
+      "url": "https://www.intel.com/content/dam/www/public/cn/zh/pdfs/accelerate-haixin-finger-and-palm-print-recognition-brief-cn.pdf",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S14",
+      "title": "园区动态：海鑫科金指纹领域NIST测试",
+      "url": "https://www.bjft.gov.cn/ftq/bmdt/202402/17da80b2ff70427b9e01f15cc0d038cf.shtml",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S15",
+      "title": "华为与宜兴联合发布城市安全大模型“天机镜”",
+      "url": "https://e.huawei.com/cn/news/2025/industries/government/city-security-model-mirror",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S16",
+      "title": "广州公安2026年人工智能大模型警务公共能力支撑平台建设项目（CZ2026-0252）招标公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202605/t20260515_26575014.htm",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S17",
+      "title": "广州公安CZ2026-0252结果公告转载",
+      "url": "https://www.qianlima.com/bid-605290589.html",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S18",
+      "title": "广州公安CZ2026-0252结果公告转载",
+      "url": "https://www.bidcenter.com.cn/news-424735203-4.html",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S19",
+      "title": "中国信息通信研究院：基于大模型的智能化应用原型研制-跨模态检索模块开发试制等招标文件",
+      "url": "https://download.ccgp.gov.cn/oss/download?uuid=890E9BEB5CAF55BE29FD9D0D573F96",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S20",
+      "title": "海鑫科金官网",
+      "url": "https://www.hisign.com.cn/",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S21",
+      "title": "广州市公安局大数据警务支队2026年人工智能大模型警务公共能力支撑平台建设项目（CZ2026-0252）招标公告",
+      "url": "https://gdgpo.czt.gd.gov.cn/maincms-web/noticeGd?type=notice&id=4c42fa7c-2ab4-4db2-a0bd-7193db6ab744&channel=fca71be5-fc0c-45db-96af-f513e9abda9d&noticeType=001011&openTenderCode=CZ2026-0252&channelName=%E9%A1%B9%E7%9B%AE%E9%87%87%E8%B4%AD%E5%85%AC%E5%91%8A&path=%2FnoticeInformationGd",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S22",
+      "title": "广州市公安局大数据警务支队2026年人工智能大模型警务公共能力支撑平台建设项目（CZ2026-0252）结果公告",
+      "url": "https://gdgpo.czt.gd.gov.cn/maincms-web/noticeGd?type=notice&id=851d05a8-c498-44c7-a130-0604292094fb&channel=fca71be5-fc0c-45db-96af-f513e9abda9d&noticeType=001021&openTenderCode=CZ2026-0252&channelName=%E9%A1%B9%E7%9B%AE%E9%87%87%E8%B4%AD%E5%85%AC%E5%91%8A&path=%2FnoticeInformationGd",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "domestic",
+      "id": "S23",
+      "title": "广州市公安局广州市公安局大数据警务支队2026年人工智能大模型警务公共能力支撑平台建设项目的合同公告",
+      "url": "https://gdgpo.czt.gd.gov.cn/maincms-web/noticeGd?type=notice&id=379e8e92-2caf-4014-8f3f-4c7a0df9de62&channel=fca71be5-fc0c-45db-96af-f513e9abda9d&noticeType=001054&openTenderCode=CZ2026-0252&channelName=%E9%A1%B9%E7%9B%AE%E9%87%87%E8%B4%AD%E5%85%AC%E5%91%8A&path=%2FnoticeInformationGd",
+      "ledger": "research/domestic-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "AXO01",
+      "title": "Draft One - Axon",
+      "url": "https://www.axon.com/products/draft-one",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "AXO02",
+      "title": "Draft One - Axon.com",
+      "url": "https://www.axon.com/responsibility/draft-one",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "AXO03",
+      "title": "How Lafayette PD used Draft One to help officers spend more time in the community",
+      "url": "https://www.axon.com/resources/how-lafayette-pd-used-draft-one",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "AXO04",
+      "title": "Axon Draft One | Arvada, CO",
+      "url": "https://www.arvadaco.gov/1531/Axon-Draft-One",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "AXO05",
+      "title": "Using AI to Write Police Reports",
+      "url": "https://cops.usdoj.gov/html/dispatch/01-2025/ai_reports.html",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "CEL01",
+      "title": "Cellebrite Genesis - Agentic AI for Investigations",
+      "url": "https://cellebrite.com/en/products/cellebrite-genesis/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "CEL02",
+      "title": "Multi-Device Investigative Analytics Platform | Cellebrite",
+      "url": "https://cellebrite.com/en/products/pathfinder/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "CEL03",
+      "title": "Digital Evidence Management Software | Cellebrite",
+      "url": "https://cellebrite.com/en/products/guardian/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "CEL04",
+      "title": "Guardian Investigate: AI Investigation Management - Cellebrite",
+      "url": "https://cellebrite.com/en/products/guardian/guardian-investigate/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "CEL05",
+      "title": "The New Age of Investigations: Cellebrite’s Journey to Genesis",
+      "url": "https://cellebrite.com/en/blog/the-new-age-of-investigations-cellebrites-journey-to-genesis/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "CEL06",
+      "title": "Agentic AI for Digital Investigations",
+      "url": "https://cellebrite.com/en/resources/press-releases/cellebrite-launches-genesis-agentic-ai-for-digital-investigations-cellebrite/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "DAT01",
+      "title": "Law Enforcement Intelligence Software powered by Graph and AI",
+      "url": "https://datawalk.com/industries/law-enforcement/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "DAT02",
+      "title": "Case Study: Federal Police Agency Sees Spectacular Results With DataWalk 10-Week Project",
+      "url": "https://datawalk.com/case-study-federal-police-agency/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "DAT04",
+      "title": "DataWalk: Unified Graph + AI Investigations Platform for Financial Crime & Public Safety",
+      "url": "https://datawalk.com/company/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "DAT06",
+      "title": "Contract Vehicles | DataWalk",
+      "url": "https://datawalk.com/contract-vehicles/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "DAT07",
+      "title": "Anderson Police Department Selects DataWalk",
+      "url": "https://datawalk.com/anderson-police-department-selects-datawalk/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "DAT08",
+      "title": "DataWalk Retained by the U.S. Department of Justice to Power Landmark Financial Crime Investigations",
+      "url": "https://datawalk.com/datawalk-retained-by-the-u-s-department-of-justice-to-power-landmark-financial-crime-investigations/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "DAT09",
+      "title": "Product Overview | DataWalk",
+      "url": "https://datawalk.com/product/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "GOV11",
+      "title": "Digital Forensics Software Renewal for Cellebrite Software",
+      "url": "https://find-tender.service.gov.uk/Notice/016210-2025",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "GOV12",
+      "title": "(Public Pack)Minutes - Appendix 1 - Transcript - Q&A with MOPAC Minutes Supplement  for Police and Crime Committee, 17/06/2026 10:00",
+      "url": "https://www.london.gov.uk/about-us/londonassembly/meetings/documents/b31762/Minutes%20-%20Appendix%201%20-%20Transcript%20-%20QA%20with%20MOPAC%20Wednesday%2017-Jun-2026%2010.00%20Police%20and%20Crime%20Co.pdf?T=9",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "GOV13",
+      "title": "Police and Crime Committee Letter on tough choices",
+      "url": "https://london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-work/london-assembly-publications/police-and-crime-committee-letter-tough-choices",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "I201",
+      "title": "i2 Group | Link analysis software | Discover, create & exploit actionable intelligence",
+      "url": "https://i2group.com/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "I202",
+      "title": "Transforming intelligence with i2: Ryan’s story | i2 Group",
+      "url": "https://i2group.com/articles/transforming-intelligence-with-i2-ryans-story",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "I203",
+      "title": "i2 Analyst's Notebook - Discover and deliver actionable intelligence | i2",
+      "url": "https://i2group.com/solutions/i2-analysts-notebook",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "I204",
+      "title": "Responsible AI | i2 Group",
+      "url": "https://i2group.com/trust/responsible-ai",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "I205",
+      "title": "About Us | i2 Group",
+      "url": "https://i2group.com/about-i2",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "MAG01",
+      "title": "Magnet AI for Digital Forensics | Magnet Forensics",
+      "url": "https://www.magnetforensics.com/magnet-ai/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "MAG02",
+      "title": "Magnet Forensics Unveils Magnet AI for Investigations",
+      "url": "https://www.magnetforensics.com/news/magnet-forensics-unveils-magnet-ai-advancing-the-next-era-of-digital-investigative-intelligence/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "MAG03",
+      "title": "Magnet ATLAS Case Study - Kerr County",
+      "url": "https://www.magnetforensics.com/wp-content/uploads/2022/08/MF_AXIOM_DVR-E_Greensboro_CaseStudy_8.5x11.pdf",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "MAG04",
+      "title": "Magnet Review",
+      "url": "https://www.magnetforensics.com/products/magnet-review/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "MAG07",
+      "title": "Metro Nashville Police Department Uses Magnet AUTOMATE to Eliminate Months-Long Device Backlog in Days, Accelerating the Pursuit of Justice - Magnet Forensics",
+      "url": "https://www.magnetforensics.com/news/metro-nashville-police-department-uses-magnet-automate-to-eliminate-months-long-device-backlog-in-days-accelerating-the-pursuit-of-justice/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "PAL01",
+      "title": "Palantir Gotham Europa",
+      "url": "https://www.palantir.com/platforms/gotham/europa/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "PAL03",
+      "title": "Gotham | Palantir",
+      "url": "https://www.palantir.com/platforms/gotham/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "PAL05",
+      "title": "Innenminister zur Plenardebatte über die Plattform HessenData | Hessen Innen",
+      "url": "https://innen.hessen.de/presse/innenminister-zur-plenardebatte-ueber-die-plattform-hessendata",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "PAL06",
+      "title": "Overview • AIP • Palantir",
+      "url": "https://www.palantir.com/docs/foundry/aip/overview/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "PEN01",
+      "title": "CoAnalyst: Generative AI for Digital Investigations | Penlink",
+      "url": "https://www.penlink.com/platform/coanalyst/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "PEN02",
+      "title": "Penlink Unveils the Next Evolution of CoAnalyst: Agentic AI for Digital Investigations",
+      "url": "https://www.penlink.com/press-release/agentic-ai-for-digital-investigations/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "PEN03",
+      "title": "CoAnalyst for PLX: Turning Digital Evidence into Decisive Action",
+      "url": "https://www.penlink.com/blog/coanalyst-plx-digital-evidence/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "PEN04",
+      "title": "CoAnalyst in Action: Real-World Examples of AI-Powered Investigations | Blog | Penlink",
+      "url": "https://www.penlink.com/blog/coanalyst-in-action/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "SIR01",
+      "title": "SIREN INVESTIGATE - SIREN",
+      "url": "https://siren.io/siren-investigate/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "SIR02",
+      "title": "Case Study: Disconnected data in Criminal Investigations - SIREN",
+      "url": "https://siren.io/case-studies/disconnected-data-in-criminal-investigations/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "SIR03",
+      "title": "Law Enforcement and Intelligence Industry- SIREN",
+      "url": "https://siren.io/law-enforcement-and-intelligence/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "SIR06",
+      "title": "Siren AI plugin for Investigate :: SIREN DOCS",
+      "url": "https://docs.siren.io/siren-ai/2.1/siren-ai/c_introduction.html",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "SIR07",
+      "title": "K9 Companion :: SIREN DOCS",
+      "url": "https://docs.siren.io/siren-ai/2.1/siren-ai/t_k9_chat_companion.html",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "SIR08",
+      "title": "Installing the Siren AI plugin :: SIREN DOCS",
+      "url": "https://docs.siren.io/siren-ai/2.1/siren-ai/t_installing.html",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "SIR09",
+      "title": "OpenAI compatible configuration :: SIREN DOCS",
+      "url": "https://docs.siren.io/siren-ai/2.1/siren-ai/t_configuring_openai_compat.html",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "SIR10",
+      "title": "Introduction to Siren Platform :: SIREN DOCS",
+      "url": "https://docs.siren.io/siren-platform-user-guide/16.0/index.html",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "VER01",
+      "title": "Investigate - Veritone",
+      "url": "https://www.veritone.com/applications/investigate/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "VER02",
+      "title": "AI for State & Local Government - Veritone",
+      "url": "https://www.veritone.com/industries/state-local-government/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "VER04",
+      "title": "Veritone Achieves “Awardable” Status on DoD’s Tradewinds Solutions Marketplace with AI-Powered Investigate Solution - Veritone",
+      "url": "https://www.veritone.com/newsroom/press-releases/tradewinds-investigate/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "VER05",
+      "title": "Veritone Expands iDEMS Data Integrations to Enhance Public Safety and Law Enforcement Efficiency",
+      "url": "https://www.veritone.com/newsroom/press-releases/idems-data-integrations/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "international",
+      "id": "VER06",
+      "title": "About Us - Veritone",
+      "url": "https://www.veritone.com/about-us/",
+      "ledger": "research/international-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN01",
+      "title": "中华人民共和国个人信息保护法",
+      "url": "https://guangdong.chinatax.gov.cn/gdsw/zjfg/2026-04/22/content_ba6765616d484fa4a3cfa874a525c9c1.shtml",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN02",
+      "title": "中华人民共和国数据安全法",
+      "url": "https://www.cac.gov.cn/2021-06/11/c_1624994566919140.htm",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN03",
+      "title": "网络数据安全管理条例（国务院令第790号）",
+      "url": "https://app.www.gov.cn/govdata/gov/202409/30/520076/article.html",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN04",
+      "title": "中华人民共和国保守国家秘密法（2024修订）",
+      "url": "https://www.gjbmj.gov.cn/n1/2024/0227/c409088-40184579.html",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN05",
+      "title": "中华人民共和国保守国家秘密法实施条例（2024修订；国务院令第786号）",
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202407/t20240723_1082257.shtml",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN06",
+      "title": "中华人民共和国网络安全法（2025修正全文）",
+      "url": "https://www.cac.gov.cn/2025-12/29/c_1768735112911946.htm",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN07",
+      "title": "全国人大常委会关于修改《中华人民共和国网络安全法》的决定",
+      "url": "https://www.cac.gov.cn/2025-10/29/c_1763461514768457.htm",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN08",
+      "title": "信息安全等级保护管理办法",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/201709/t20170920_776375.html",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN09",
+      "title": "生成式人工智能服务管理暂行办法（令第15号）",
+      "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN10",
+      "title": "中华人民共和国政府采购法（2014修正）",
+      "url": "https://fgw.beijing.gov.cn/fgwzwgk/2024zcwj/flfggz/fl/202004/t20200415_3727779.htm",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN11",
+      "title": "中华人民共和国政府采购法实施条例（国务院令第658号）",
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202001/t20200114_759319.shtml",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "CN12",
+      "title": "关于办理刑事案件收集提取和审查判断电子数据若干问题的规定（法发〔2016〕22号）",
+      "url": "http://gongbao.court.gov.cn/Details/bd16c955fa77106fa0c1f47fa89137.html",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "EU01",
+      "title": "AI Act Annex III：高风险用途清单",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "EU02",
+      "title": "AI Act Article 5：禁止用途",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "EU03",
+      "title": "AI Act Article 6：高风险分类",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "EU04",
+      "title": "AI Act Article 14：人类监督",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "EU05",
+      "title": "AI Act Article 26：高风险部署者义务",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "EU06",
+      "title": "AI Act Article 27：基本权利影响评估",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "EU07",
+      "title": "AI Act Article 113：现行适用时间",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "EU08",
+      "title": "AI Omnibus enters into force",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "EU09",
+      "title": "AI Act Article 2：适用范围",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-2",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "US01",
+      "title": "OMB M-25-21：Accelerating Federal Use of AI through Innovation, Governance, and Public Trust",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "US02",
+      "title": "OMB M-25-22：Driving Efficient Acquisition of Artificial Intelligence in Government",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "US03",
+      "title": "OMB M-26-04：Increasing Public Trust in Artificial Intelligence Through Unbiased AI Principles",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles-1.pdf",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "compliance",
+      "id": "US04",
+      "title": "OMB Memoranda官方目录",
+      "url": "https://www.whitehouse.gov/omb/information-for-agencies/memoranda/",
+      "ledger": "research/compliance-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T01",
+      "title": "PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T02",
+      "title": "BGE-M3模型卡",
+      "url": "https://huggingface.co/BAAI/bge-m3/raw/main/README.md",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T03",
+      "title": "LangGraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T03A",
+      "title": "LangGraph Interrupts",
+      "url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T04",
+      "title": "Qwen3-8B模型卡",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T05",
+      "title": "Qwen3 vLLM部署",
+      "url": "https://github.com/QwenLM/Qwen3/blob/main/docs/source/deployment/vllm.md",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T06",
+      "title": "pgvector LICENSE",
+      "url": "https://github.com/pgvector/pgvector/blob/master/LICENSE",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T06A",
+      "title": "pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T07",
+      "title": "PostgreSQL Row Security Policies",
+      "url": "https://www.postgresql.org/docs/current/ddl-rowsecurity.html",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T08",
+      "title": "PDF.js",
+      "url": "https://mozilla.github.io/pdf.js/",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T09",
+      "title": "Cytoscape.js",
+      "url": "https://github.com/cytoscape/cytoscape.js",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T10",
+      "title": "FastAPI",
+      "url": "https://fastapi.tiangolo.com/",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T11",
+      "title": "Spring Security",
+      "url": "https://docs.spring.io/spring-security/reference/index.html",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T12",
+      "title": "Timesketch",
+      "url": "https://github.com/google/timesketch",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T12A",
+      "title": "Timesketch官网",
+      "url": "https://timesketch.org/",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T13",
+      "title": "Autopsy官网",
+      "url": "https://www.autopsy.com/",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T13A",
+      "title": "Autopsy版本许可证",
+      "url": "https://sleuthkit.org/autopsy/licenses.php",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "technical",
+      "id": "T14",
+      "title": "Qwen3-1.7B LICENSE",
+      "url": "https://huggingface.co/Qwen/Qwen3-1.7B/blob/main/LICENSE",
+      "ledger": "research/technical-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A01",
+      "title": "Building effective agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "ledger": "research/agent-engineering-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A02",
+      "title": "Writing effective tools for agents",
+      "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+      "ledger": "research/agent-engineering-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A03",
+      "title": "Effective context engineering for AI agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "ledger": "research/agent-engineering-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A04",
+      "title": "AI Playbook for the UK Government",
+      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+      "ledger": "research/agent-engineering-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A05",
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "ledger": "research/agent-engineering-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A06",
+      "title": "LLM06:2025 Excessive Agency",
+      "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/main/2_0_vulns/LLM06_ExcessiveAgency.md",
+      "ledger": "research/agent-engineering-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A07",
+      "title": "AI Agent Security Cheat Sheet",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html",
+      "ledger": "research/agent-engineering-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A08",
+      "title": "LLM01:2025 Prompt Injection",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "ledger": "research/agent-engineering-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A09",
+      "title": "LangGraph Interrupts",
+      "url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+      "ledger": "research/agent-engineering-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A10",
+      "title": "Dify",
+      "url": "https://github.com/langgenius/dify",
+      "ledger": "research/agent-engineering-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A11",
+      "title": "Dify LICENSE",
+      "url": "https://github.com/langgenius/dify/blob/main/LICENSE",
+      "ledger": "research/agent-engineering-sources.json"
+    },
+    {
+      "group": "agent_engineering",
+      "id": "A12",
+      "title": "Temporal Workflow",
+      "url": "https://docs.temporal.io/workflows",
+      "ledger": "research/agent-engineering-sources.json"
+    }
+  ]
+}

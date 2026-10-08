@@ -1,0 +1,1681 @@
+{
+  "schema_version": "1.0",
+  "language": "zh-CN",
+  "retrieved_date": "2026-10-08",
+  "date_basis": "父任务工具核实；仅按此次能读取的公开材料，不声称全面覆盖至该日",
+  "scope": "中国境内专业刑警/公安刑事案件辅助调查、笔录及卷宗分析；检察/取证基础件明确标注相邻；不处理真实案件个人数据，不支持自动定罪。",
+  "evidence_taxonomy": [
+    "vendor_claim",
+    "government_reporting",
+    "government_hosted_customer_reporting",
+    "customer_authored_case_republished",
+    "vendor_hosted_customer_case",
+    "procurement_tender",
+    "procurement_award",
+    "procurement_contract",
+    "third_party_procurement_republication",
+    "out_of_scope"
+  ],
+  "search_plan": [
+    {
+      "id": "Q1",
+      "facet": "国投智能/美亚柏科产品及落地",
+      "retry_of": null,
+      "query": "国投智能 美亚天擎 公安 大模型 刑侦 案件",
+      "error": null,
+      "results": [
+        {
+          "url": "https://www.asmag.com.cn/news/202306/112173.html",
+          "title": "美亚柏科发布国内首个公共安全大模型“天擎” - 安防知识网 - a&s传媒"
+        },
+        {
+          "url": "http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300188&id=10833123",
+          "title": "国投智能(300188)_公司公告_国投智能：2024环境、社会及公司治理(ESG)报告新浪财经_新浪网"
+        },
+        {
+          "url": "https://www.sohu.com/a/961217993_115362?scm=10001.8085_13-8085_13.0.0-0-0-0-0.0",
+          "title": "国投智能：公司依托自研的“天擎”公共安全大模型及电子数据取证产品，聚焦涉网犯罪预警等核心场景"
+        },
+        {
+          "url": "https://www.stdaily.com/web/gdxw/2026-07/24/content_553161.html",
+          "title": "公安部：多措并举应对“AI换脸”“深度伪造”等新型技术犯罪"
+        },
+        {
+          "url": "https://www.pingwest.com/w/284555",
+          "title": "美亚柏科：国内首个公共安全大模型“天擎”问世-品玩"
+        },
+        {
+          "url": "http://old2022.bulletin.cas.cn/publish_article/2025/3/20250302.htm",
+          "title": "人工智能犯罪与我国对策研究"
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "facet": "科大讯飞刑事卷宗审查产品",
+      "retry_of": null,
+      "query": "科大讯飞 刑事 案件 卷宗 智能 辅助 审查 系统 206",
+      "error": null,
+      "results": [
+        {
+          "url": "http://www.chinapeace.gov.cn/chinapeace/c100045/2021-02/17/content_12451709.shtml",
+          "title": "“206”系统是个什么系统？其如何成为上海有效防范冤假错案的“利器”-中国长安网"
+        },
+        {
+          "url": "http://www.ahjgbzw.gov.cn/content/detail/695af7867f8b9a437b8b4567.html",
+          "title": "安徽省机构编制委员会办公室"
+        },
+        {
+          "url": "https://edu.iflytek.com/about-us/news/company-news/2003.html",
+          "title": "科大讯飞助力打造安徽检察人工智能辅助办案系统-公司新闻-科大讯飞智慧教育"
+        },
+        {
+          "url": "https://news.sina.cn/gn/2019-01-24/detail-ihrfqzka0483034.d.html?vt=4",
+          "title": "我国首次利用人工智能审案 这项黑科技全球领先"
+        },
+        {
+          "url": "http://www.cnr.cn/shanghai/tt/20190124/t20190124_524492909.shtml",
+          "title": "我国法院首次运用\"人工智能\"辅助案件审理_央广网"
+        },
+        {
+          "url": "https://www.shobserver.com/news/detail?id=58740",
+          "title": "{{title}}"
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "facet": "海致公安图谱/刑侦产品",
+      "retry_of": null,
+      "query": "海致 公安 刑侦 图谱 智能 分析 平台",
+      "error": null,
+      "results": []
+    },
+    {
+      "id": "Q4",
+      "facet": "海鑫公安大模型产品",
+      "retry_of": null,
+      "query": "海鑫 公安 大模型 刑侦 案件 系统",
+      "error": null,
+      "results": [
+        {
+          "url": "http://p26088.zxnyun.com/product",
+          "title": "产品介绍_刑事科学技术管理系统"
+        },
+        {
+          "url": "http://s26088.zhixuannet.com/",
+          "title": "刑事科学技术管理系统_法医科学系统_刑侦科学系统_刑事科学技术管理平台软件系统"
+        },
+        {
+          "url": "https://s1179.zhixuannet.com/product",
+          "title": "产品介绍_执法办案管理系统"
+        },
+        {
+          "url": "https://www.toutiao.com/article/7595102241996948020/",
+          "title": "创新案例之“基于DeepSeek大模型的公安实战应用平台” - 今日头条"
+        },
+        {
+          "url": "https://zhifabanan.com/haian/YBZF/315.html",
+          "title": "海安市法督“慧办案”大数据分析系统-智慧纪检与党建-执法办案，执法办案系统，执法办案系统厂家，执法办案管理系统厂家，执法办案系统设备厂家，执法办案监督管理系统"
+        },
+        {
+          "url": "https://s7219.zhixuannet.com/solution",
+          "title": "解决方案_案件评查管理系统"
+        }
+      ]
+    },
+    {
+      "id": "Q5",
+      "facet": "华为公安模型/警务落地",
+      "retry_of": null,
+      "query": "华为 公安 盘古 大模型 刑侦 卷宗",
+      "error": null,
+      "results": [
+        {
+          "url": "https://support.huawei.com/enterprise/zh/doc/EDOC1100455551/462c9f41",
+          "title": "开发盘古科学计算大模型- 华为"
+        },
+        {
+          "url": "https://linux.do/t/topic/2386056",
+          "title": "发力大模型！华为余承东喊话自己的字典没有第二，只有第一 - 前沿快讯 - LINUX DO"
+        },
+        {
+          "url": "https://9200.cn/tools/2225",
+          "title": "https://9200.cn/tools/2225"
+        },
+        {
+          "url": "https://www.guancha.cn/economy/2026_06_13_820339.shtml",
+          "title": "余承东再次负责华为盘古大模型：字典里没有第二"
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E7%9B%98%E5%8F%A4%E5%A4%A7%E6%A8%A1%E5%9E%8B/62824081",
+          "title": "盘古大模型_百度百科"
+        },
+        {
+          "url": "https://www.eet-china.com/mp/a275887.html",
+          "title": "华为盘古大模型急欲落地：大量接触创业公司重构多产业B端方案-电子工程专辑"
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "facet": "政府报道刑侦大模型真实部署",
+      "retry_of": null,
+      "query": "刑侦 大模型 卷宗 公安 系统 警小爱 百晓警 gov.cn",
+      "error": null,
+      "results": [
+        {
+          "url": "https://grokipedia.com/page/govcn",
+          "title": "gov.cn"
+        },
+        {
+          "url": "https://www.gov.cn/english",
+          "title": "The Chinese Central Government's Official Web Portal"
+        },
+        {
+          "url": "https://english.www.gov.cn/",
+          "title": "The State Council of the People's Republic of China"
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%85%AC%E5%AE%89%E9%83%A8%E7%89%B9%E5%8B%A4%E5%B1%80/23625106",
+          "title": "中华人民共和国公安部特勤局"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gov.cn",
+          "title": "gov.cn"
+        },
+        {
+          "url": "http://www.gov.cn",
+          "title": "中国政府网_中央人民政府门户网站"
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "facet": "公安AI刑事采购/中标",
+      "retry_of": null,
+      "query": "site.ccgp.gov.cn 公安 刑侦 大模型 智能 辅助 审查",
+      "error": null,
+      "results": [
+        {
+          "url": "https://www.zkj.com/solution/public-security",
+          "title": "公安全流程智能支持解决方案-中关村科金得助智能"
+        },
+        {
+          "url": "https://www.anpcn.com:8447/informationDetail?id=168&type=fagy",
+          "title": "人工智能在公安笔录中的应用实践——AI智能笔录辅助系统"
+        },
+        {
+          "url": "https://developer.aliyun.com/article/1708649",
+          "title": "AI（大模型）在公安案件侦办中的应用场景-阿里云开发者社区"
+        },
+        {
+          "url": "https://download.ccgp.gov.cn/oss/download?uuid=890E9BEB5CAF55BE29FD9D0D573F96",
+          "title": "招标文件 - download.ccgp.gov.cn"
+        },
+        {
+          "url": "https://www.ccgp.gov.cn/cggg/zygg/gkzb/202604/t20260429_26479521.htm",
+          "title": "大模型智能体构建服务公开招标公告"
+        },
+        {
+          "url": "https://login.12309.gov.cn:8443/spp/llyj/202504/t20250423_693903.shtml",
+          "title": "着力构建具有检察特色的大模型应用生态_中华人民共和国最高人民检察院"
+        }
+      ]
+    },
+    {
+      "id": "Q8",
+      "facet": "卷宗分析/智能办案采购或中标",
+      "retry_of": null,
+      "query": "公安 卷宗 智能 分析 大模型 中标 公告",
+      "error": null,
+      "results": [
+        {
+          "url": "https://www.stdaily.com/web/gdxw/2026-07/24/content_553161.html",
+          "title": "公安部：多措并举应对“AI换脸”“深度伪造”等新型技术犯罪"
+        },
+        {
+          "url": "https://www.afdata.org.cn/Scene/b15ac594-62f2-4e76-a9aa-b8c4d00c577c",
+          "title": "某地公安实战 AI 大模型应用平台--中国安防大数据服务平台"
+        },
+        {
+          "url": "https://www.percent.cn/Solution/aq.html",
+          "title": "公安大数据治理解决方案_百分点科技"
+        },
+        {
+          "url": "https://cloud.baidu.com/solution/gongan.html",
+          "title": "公安大模型SaaS化应用解决方案-百度智能云"
+        },
+        {
+          "url": "https://www.zkj.com/news-media/8883.html",
+          "title": "【中国经营报】2025年金融大模型招投标活跃：智能体项目均价百万 四大类厂商激战正酣"
+        },
+        {
+          "url": "https://www.cnipa.gov.cn/module/download/downfile.jsp?classid=0&showname=2021%E5%B9%B4%E5%BA%A6%E5%85%A8%E5%9B%BD%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E7%B3%BB%E7%BB%9F%E5%92%8C%E5%85%AC%E5%AE%89%E6%9C%BA%E5%85%B3%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E4%BF%9D%E6%8A%A4%E5%B7%A5%E4%BD%9C%E6%88%90%E7%BB%A9%E7%AA%81%E5%87%BA%E9%9B%86%E4%BD%93%E5%92%8C%E4%B8%AA%E4%BA%BA%E5%90%8D%E5%8D%95.pdf&filename=91820809ab7e4f58822e8a15405aeaeb.pdf",
+          "title": "2021 年度全国知识产权系统和公安机关知识产权保护工作 ..."
+        }
+      ]
+    },
+    {
+      "id": "Q3R",
+      "facet": null,
+      "retry_of": "Q3",
+      "query": "海致 公安 Atlas 图谱",
+      "error": null,
+      "results": [
+        {
+          "url": "https://www.stargraph.cn/",
+          "title": "海致高性能图计算"
+        },
+        {
+          "url": "https://mkp-res.hc-cdn.com/marketplace/public/app/attachment/20220708/99ce4011-45a2-4d43-ab18-5eb1b1b741b5/2207080523036603.pdf",
+          "title": "北京海致科技集团有限公司"
+        },
+        {
+          "url": "https://www.haizhi.com/",
+          "title": "海致科技集团|领先的认知智能技术供应商"
+        },
+        {
+          "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E6%B5%B7%E8%87%B4%E7%A7%91%E6%8A%80%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/58091724",
+          "title": "北京海致科技集团有限公司"
+        },
+        {
+          "url": "https://atlasgraph.haizhi.com/zh/",
+          "title": "AtlasGraph"
+        },
+        {
+          "url": "https://www.modb.pro/db/397776",
+          "title": "海致Atlas知识图谱平台入选“2021年数字技术融合创新应用典型解决方案” - 墨天轮"
+        }
+      ]
+    },
+    {
+      "id": "Q4R",
+      "facet": null,
+      "retry_of": "Q4",
+      "query": "海鑫科金 警务 大模型",
+      "error": null,
+      "results": [
+        {
+          "url": "https://www.hisign.com.cn/",
+          "title": "海鑫科金"
+        },
+        {
+          "url": "https://finance.ifeng.com/c/8iArHumgkjq",
+          "title": "中国技术援外新实践：海鑫科金AFIS系统落地亚非太多国 - 财经"
+        },
+        {
+          "url": "https://www.leiphone.com/category/smartsecurity/oraumM6Un1cVgNhw.html",
+          "title": "海鑫科金：20 年老牌安企的AI 新生"
+        },
+        {
+          "url": "https://www.intel.com/content/dam/www/public/cn/zh/pdfs/accelerate-haixin-finger-and-palm-print-recognition-brief-cn.pdf",
+          "title": "全新至强平台为海鑫指掌纹识别比对方案带来性能加速度"
+        },
+        {
+          "url": "https://www.bjft.gov.cn/ftq/bmdt/202402/17da80b2ff70427b9e01f15cc0d038cf.shtml",
+          "title": "海鑫科金PK指纹领域顶级厂商，勇夺NIST测试全球第一！"
+        },
+        {
+          "url": "https://pdf.dfcfw.com/pdf/H2_AN202005291380642750_1.pdf",
+          "title": "海鑫科金"
+        }
+      ]
+    },
+    {
+      "id": "Q5R",
+      "facet": null,
+      "retry_of": "Q5",
+      "query": "site.huawei.com 智慧警务 大模型",
+      "error": null,
+      "results": [
+        {
+          "url": "https://e.huawei.com/cn/industries/finance/data-intelligence/ai-hub",
+          "title": "银行AI与大模型解决方案-金融大模型-华为企业业务"
+        },
+        {
+          "url": "https://www.huaweicloud.com/news/2025/20250929174623246.html",
+          "title": "DeepSeek-V3.2-Exp第一时间上线华为云-华为云"
+        },
+        {
+          "url": "https://developer.huawei.com/consumer/cn/doc/development/hiai-Guides/service-introduction-0000001050040017",
+          "title": "业务介绍-机器学习服务 - 华为HarmonyOS开发者"
+        },
+        {
+          "url": "https://e.huawei.com/cn/news/2025/industries/government/city-security-model-mirror",
+          "title": "华为与宜兴联合发布城市安全大模型“天机镜”-华为"
+        },
+        {
+          "url": "https://e.huawei.com/cn/news/2024/industries/government/the-first-batch-application-scenarios",
+          "title": "华为发布政务大模型和城市大模型首批应用场景，助力城市智能新升级-华为"
+        },
+        {
+          "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202605/t20260515_26575014.htm",
+          "title": "广州市公安局大数据警务支队2026年人工智能大模型警务公共能力支撑平..."
+        }
+      ]
+    },
+    {
+      "id": "Q6R",
+      "facet": null,
+      "retry_of": "Q6",
+      "query": "公安 卷宗 大模型 辅助 审查",
+      "error": null,
+      "results": [
+        {
+          "url": "https://www.163.com/dy/article/L2UQGBCC0552FTEC.html",
+          "title": "AI破局法制审查痛点，南威“獬豸智审”重塑公安办案新范式"
+        },
+        {
+          "url": "https://www.bj148.org/jdt/202609/t20260922_1681987.html",
+          "title": "焦点图-北京政法网"
+        },
+        {
+          "url": "https://www.faxianlaw.com/cn/details/1285/12e2317826df7d7b",
+          "title": "聚焦AI辅助电子数据审查与质证——发现律师事务所举办刑事半月谈活动 | 发现资讯 – 律所动态"
+        },
+        {
+          "url": "http://sh.people.com.cn/n2/2026/0401/c134768-41540271.html",
+          "title": "上海检察机关已上线涵盖32个刑事罪名智能辅助模型"
+        },
+        {
+          "url": "https://www.afdata.org.cn/Scene/b15ac594-62f2-4e76-a9aa-b8c4d00c577c",
+          "title": "某地公安实战 AI 大模型应用平台--中国安防大数据服务平台"
+        },
+        {
+          "url": "https://www.ssfjd.com/News/Info.aspx?ID=5728",
+          "title": "司法鉴定科学研究院"
+        }
+      ]
+    },
+    {
+      "id": "Q7R",
+      "facet": null,
+      "retry_of": "Q7",
+      "query": "公安 智能辅助办案 中标",
+      "error": null,
+      "results": [
+        {
+          "url": "https://www.trs.com.cn/xyfa/ggaq/ga/znfzba/",
+          "title": "智能辅助办案"
+        },
+        {
+          "url": "https://www.gridsum.com/cases/163.html",
+          "title": "客户案例-国双科技"
+        },
+        {
+          "url": "https://www.trs.com.cn/ljwm/xwhd/201903/t20190329_8829.html",
+          "title": "AI案例 | 让公安机关越用越好的人工智能辅助办案"
+        },
+        {
+          "url": "https://www.finereport.com/blog/article/68ac255ed2527e0eb7df4e7c",
+          "title": "智慧警务平台为何受关注？数字化警务提升执法效率解析 - FineReport报表知识库"
+        },
+        {
+          "url": "https://patents.google.com/patent/CN107358558A/zh",
+          "title": "CN107358558A - 刑事案件智能辅助办案方法，系统及具有其的存储介质和终端设备 - Google Patents"
+        },
+        {
+          "url": "https://www.suzhou.gov.cn/szsrmzf/szyw/202507/01b8a0aee949478e85187454a54dbee3.shtml",
+          "title": "十佳智慧警务典型案例公布 昆山AI智能笔录辅助系统入选"
+        }
+      ]
+    },
+    {
+      "id": "Q1R",
+      "facet": null,
+      "retry_of": "Q1",
+      "query": "site.sdic.com.cn 小美 警务 天擎",
+      "error": null,
+      "results": [
+        {
+          "url": "https://www.sdic.com.cn/",
+          "title": "国家开发投资集团有限公司"
+        },
+        {
+          "url": "https://caplight.com/investor/sdic-com-cn",
+          "title": "State Development and Investment Group Co., Ltd. | Portfolio, Investments & AUM | Caplight"
+        },
+        {
+          "url": "https://macroplane.com/companies/300188.SZ",
+          "title": "Xiamen Meiya Pico (300188.SZ) — Macroplane"
+        },
+        {
+          "url": "https://www.linkedin.com/company/%E5%9B%BD%E5%AE%B6%E5%BC%80%E5%8F%91%E6%8A%95%E8%B5%84%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+          "title": "国家开发投资集团有限公司"
+        },
+        {
+          "url": "https://chinaservicesinfo.com/s/201904/22/WS5cbd7332498e079e6801eb2b/state-development-investment-corp-ltd-sdic.html",
+          "title": "State Development & Investment Corp Ltd (SDIC)"
+        },
+        {
+          "url": "https://www.sdic.com.cn/en/appsdic/indtion/A020101index_1.htm",
+          "title": "SDIC Introduction"
+        }
+      ]
+    },
+    {
+      "id": "Q7BR",
+      "facet": null,
+      "retry_of": "Q7",
+      "query": "\"广州市公安局\" \"人工智能大模型警务\" \"中标\"",
+      "error": null,
+      "results": [
+        {
+          "url": "https://newcpm.grcbank.com:8079/jcepp-esp/notice/toNoticeDetails?newsId=afb8a560df594fd8a4b35196b989c28a",
+          "title": "采购系统"
+        },
+        {
+          "url": "https://guangdong.zhaobiao.cn/free_v_14c357c2a4966f2cb98ff1f03605895d.html",
+          "title": "广州市公安局大数据警务支队2026年人工智能大模型警务公共能力支撑平台建设项目（CZ2026-0252）招标公告"
+        },
+        {
+          "url": "https://www.gz.gov.cn/xw/zwlb/bmdt/content/post_10872941.html",
+          "title": "\n广州市数字政府运营中心“深挖数据价值 智绘数字政府履职新图景”（GI案例）入选“政企数智化创新成果案例” - 广州市人民政府门户网站\n"
+        },
+        {
+          "url": "https://www.qianlima.com/bid-605290589.html",
+          "title": "广州市公安局大数据警务支队2026年人工智能大模型警务公共能力支撑平台建设项目（CZ2026-0252）结果公告-千里马招标网"
+        },
+        {
+          "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202605/t20260515_26575014.htm",
+          "title": "广州市公安局大数据警务支队2026年人工智能大模型警务公共能力支撑平..."
+        },
+        {
+          "url": "https://www.bidcenter.com.cn/news-424735203-4.html",
+          "title": "大数据警务支队2026年人工智能大模型警务公共能力支撑平台建设项目结..."
+        }
+      ]
+    }
+  ],
+  "search_facets_count": 8,
+  "search_calls_including_retries": 15,
+  "products": [
+    {
+      "id": "P01",
+      "name": "“小美”智能警务助手",
+      "organization": "国投智能信息科技股份有限公司 / 美亚柏科品牌体系",
+      "scope": "直接相关：公共安全业务入口，覆盖办案；非仅刑警专用",
+      "region": "中国；产品页未具名部署地区或客户",
+      "source_ids": [
+        "S01"
+      ],
+      "function_summary": "多模态问答、跨多警务平台线索筛查、多源综合研判、业务知识库问答",
+      "overlap": {
+        "case_files": "部分：案情输入、问答；未明示完整卷宗编目",
+        "event_timeline": "未证实",
+        "contradiction_detection": "未证实",
+        "relationship_graph": "未证实",
+        "agent": "部分：多系统联动；本页未证明自主任务规划或执行审计"
+      },
+      "delivery": {
+        "evidence": "未取得本产品私有化、云托管或许可模式证据；不能从同厂商Qiko推定",
+        "status": "unknown"
+      },
+      "deployment": {
+        "status": "product_documented_vendor_only",
+        "description": "官方产品页存在；本轮无具名公安客户公告、采购或验收"
+      },
+      "published_date": "2025-06-11",
+      "body_read_success": true
+    },
+    {
+      "id": "P02",
+      "name": "“206”刑事案件智能辅助办案系统",
+      "organization": "上海市委政法委、上海公检法司、科大讯飞共同研发",
+      "scope": "直接相关：刑事诉讼全流程系统，含公安侦查环节",
+      "region": "上海；其他试点省市未在该文具名",
+      "source_ids": [
+        "S02"
+      ],
+      "function_summary": "智能辅助审讯与笔录、证据标准及采集指引、证据校验、文书流转、跨公检法司协同",
+      "overlap": {
+        "case_files": "有：电子证据与笔录、文书流转",
+        "event_timeline": "未证实事件时间线UI",
+        "contradiction_detection": "部分：证据瑕疵校验；未明确供述矛盾自动识别能力",
+        "relationship_graph": "部分：证据链模型，不等同人际关系图",
+        "agent": "未证实；属于传统AI+规则协同系统，不能改称大模型Agent"
+      },
+      "delivery": {
+        "evidence": "共同研发并与公安办案平台融合；有组织级集成项目证据，没有许可证/SaaS/离线方式细节",
+        "status": "integrated_joint_project"
+      },
+      "deployment": {
+        "status": "government_hosted_customer_report",
+        "description": "2021-02-17中国长安网/法治日报采访报道上海公安全面深度应用；不是验收文书"
+      },
+      "published_date": "2021-02-17",
+      "body_read_success": true
+    },
+    {
+      "id": "P03",
+      "name": "TRS智能辅助办案系统 / 刑事案件智能辅助管理系统",
+      "organization": "拓尔思；文中合作公安厅未具名",
+      "scope": "直接相关：公安办案与法制监督",
+      "region": "中国某省，不能推定省名",
+      "source_ids": [
+        "S03",
+        "S04"
+      ],
+      "function_summary": "卷宗分类排序组卷、NLP要素提取、案件知识图谱、跨证据规则校验、逻辑及完整性检查、串并案",
+      "overlap": {
+        "case_files": "有",
+        "event_timeline": "部分：时间重叠校验，非完整事件时间线证明",
+        "contradiction_detection": "有：厂商明示逻辑校验、存在矛盾等",
+        "relationship_graph": "有：案件知识图谱",
+        "agent": "未证实：组件化+规则/NLP图谱不自动等于LLM Agent"
+      },
+      "delivery": {
+        "evidence": "厂商称与某省公安厅共研、2018-06部分市州试点；组件化扩展；公网/内网与商业许可方式未知",
+        "status": "vendor_claim_integrated_project"
+      },
+      "deployment": {
+        "status": "anonymous_vendor_case",
+        "description": "厂商称2018-06已上线试点；无具名客户独立确认、采购或验收"
+      },
+      "published_date": "2018-11-05",
+      "body_read_success": true
+    },
+    {
+      "id": "P04",
+      "name": "昆山市公安局AI智能笔录辅助系统",
+      "organization": "昆山市公安局自研自建；未识别外部产品供应商",
+      "scope": "直接相关：公安笔录及专案协同，包含刑事案件",
+      "region": "江苏昆山；署名案例称苏州姑苏、相城推广，后者未独立核验",
+      "source_ids": [
+        "S05",
+        "S06"
+      ],
+      "function_summary": "笔录预生成、提问推荐、质量核查、跨笔录矛盾提示、时间线冲突提示、关系图谱、专案协同",
+      "overlap": {
+        "case_files": "有：重点是笔录，不是所有证据类别",
+        "event_timeline": "部分：明确时间线冲突提示，未证明通用可编辑事件时间线",
+        "contradiction_detection": "有：客户署名案例",
+        "relationship_graph": "有：客户署名案例",
+        "agent": "有：客户署名文明确开源模型、Dify及智能体工作流"
+      },
+      "delivery": {
+        "evidence": "客户署名案例明示Qwen、DeepSeek模型与Dify私有化部署，自研及工作流迁移；该实现不必然是商业对外交付产品",
+        "status": "customer_claim_private_self_build"
+      },
+      "deployment": {
+        "status": "government_reporting_plus_customer_authored_republication",
+        "description": "苏州政府网报道系统及部署建设；行业平台署名昆山公安文称全局应用。案例日期与“今年4月份”矛盾，不确定上线年"
+      },
+      "published_date": "政府报道具体日期未取得（URL路径202507）；署名案例2026-03-21",
+      "body_read_success": true
+    },
+    {
+      "id": "P05",
+      "name": "“警智”智能执法办案与管理平台 / “警智通”APP",
+      "organization": "国双科技；客户天津市公安局",
+      "scope": "直接相关：公安全流程办案平台，不只侦查分析",
+      "region": "天津",
+      "source_ids": [
+        "S07"
+      ],
+      "function_summary": "自动回填、语音笔录、办案指引、文书生成、卷宗归档、证据视图、程序节点预警、移动办案",
+      "overlap": {
+        "case_files": "有",
+        "event_timeline": "部分：侦查全流程轨迹即办案流程轨迹；不是案发事件时间线",
+        "contradiction_detection": "未证实",
+        "relationship_graph": "未证实；证据视图不等于人际关系图",
+        "agent": "未证实：传统NLP/语音/机器学习平台"
+      },
+      "delivery": {
+        "evidence": "厂商客户页描述多系统集成、市级全面上线和移动APP；部署拓扑与授权/运维合同未知",
+        "status": "vendor_claim_city_integrated_platform"
+      },
+      "deployment": {
+        "status": "named_vendor_customer_case",
+        "description": "国双官网称2020-01-01天津市公安局正式全面上线；本轮未取得天津公安独立公告或验收"
+      },
+      "published_date": null,
+      "body_read_success": true
+    },
+    {
+      "id": "P06",
+      "name": "公安大模型SaaS化应用解决方案",
+      "organization": "百度智能云",
+      "scope": "直接相关：官方明示刑侦案件研判、执法办案、反诈",
+      "region": "面向省、市、区县公安；无具名客户地区",
+      "source_ids": [
+        "S08"
+      ],
+      "function_summary": "案情/笔录/現勘解析、资金及轨迹分析、报告生成、跨系统调证、多个Agent调用",
+      "overlap": {
+        "case_files": "部分：笔录与现场勘验解析，未明示完整卷宗管理",
+        "event_timeline": "部分：轨迹分析，不证明事件时间线",
+        "contradiction_detection": "未证实",
+        "relationship_graph": "部分：关联分析，不证明关系图呈现",
+        "agent": "有：厂商明确单Agent、多Agent组合"
+      },
+      "delivery": {
+        "evidence": "官方明示省级统一算力、地市按需调用、完整SaaS/单Agent/多Agent服务。网络隔离、权限、托管主体细节未知",
+        "status": "vendor_claim_saas_and_regional_shared_compute"
+      },
+      "deployment": {
+        "status": "product_solution_documented_vendor_only",
+        "description": "有官方具体方案页，无具名采购、投产或验收证据"
+      },
+      "published_date": null,
+      "body_read_success": true
+    },
+    {
+      "id": "P07",
+      "name": "安徽省检察院人工智能辅助办案系统（“人工智能助手”）",
+      "organization": "安徽省检察院与科大讯飞",
+      "scope": "相邻竞品：刑事卷宗审查，但用户是检察官而非刑警",
+      "region": "安徽省",
+      "source_ids": [
+        "S09"
+      ],
+      "function_summary": "卷宗精细编目分类、言词证据归纳、证据相互印证与矛盾点列表、案卡填录、问案",
+      "overlap": {
+        "case_files": "有",
+        "event_timeline": "部分：提取时间地点，不证明时间线视图",
+        "contradiction_detection": "有：厂商明示",
+        "relationship_graph": "部分：证据链，不证明人际关系图",
+        "agent": "部分：推理大模型+RAG工具；本页不证明自治多智能体架构"
+      },
+      "delivery": {
+        "evidence": "厂商称国产算力平台、法律推理模型、SFT与RAG、省级上线；本轮未取得专网/私有化拓扑或采购合同",
+        "status": "vendor_claim_provincial_joint_project"
+      },
+      "deployment": {
+        "status": "vendor_reported_named_customer_launch",
+        "description": "厂商2025-04-08报道2025-04-03全省上线，盗窃/交通肇事/故意伤害/危险驾驶四案由；非公安部署，不验证其性能百分比"
+      },
+      "published_date": "2025-04-08",
+      "body_read_success": true
+    },
+    {
+      "id": "P08",
+      "name": "Qiko大模型智能本",
+      "organization": "国投智能",
+      "scope": "相邻工具：电子数据取证及本地智能体装备，不是已证实全卷宗系统",
+      "region": "产品面向行业，中国；无具名客户或地区",
+      "source_ids": [
+        "S12"
+      ],
+      "function_summary": "本地模型、文档总结/分析、思维导图、取证百科、群聊分析、业务知识库与自建智能体",
+      "overlap": {
+        "case_files": "部分：文档总结分析，未证明法定卷宗流程",
+        "event_timeline": "未证实",
+        "contradiction_detection": "未证实",
+        "relationship_graph": "未证实；思维导图不是关系证据图",
+        "agent": "有：厂商明示取证智能体与构建新智能体"
+      },
+      "delivery": {
+        "evidence": "官方明确私有化部署的一体化装备、开箱即用；无正式警务采购客户；上下文规格30K/128K冲突不采用",
+        "status": "vendor_claim_private_appliance"
+      },
+      "deployment": {
+        "status": "product_documented_vendor_only",
+        "description": "官方具体装备页存在，无具名公安投产或验收"
+      },
+      "published_date": "2025-06-11",
+      "body_read_success": true
+    }
+  ],
+  "procurement_cases": [
+    {
+      "project_name": "广州市公安局大数据警务支队2026年人工智能大模型警务公共能力支撑平台建设项目",
+      "project_number": "CZ2026-0252",
+      "buyer": "广州市公安局",
+      "region": "广东广州",
+      "supplier": "中国电信股份有限公司广东分公司",
+      "budget": {
+        "amount": 4143623.0,
+        "currency": "CNY",
+        "source_id": "S21",
+        "meaning": "项目招标预算，不是软件单价"
+      },
+      "award": {
+        "amount": 1864631.0,
+        "currency": "CNY",
+        "source_id": "S22",
+        "date": "2026-06-12"
+      },
+      "contract": {
+        "number": "GDGZA2609463CGN00",
+        "amount": 1864631.0,
+        "currency": "CNY",
+        "signed_date": "2026-07-20",
+        "announcement_date": "2026-07-22",
+        "source_id": "S23",
+        "performance_period": "2026-07-20至2029-12-20"
+      },
+      "delivery_evidence": "行业应用软件开发服务；招标要求合同签订后18个月内完成调研/深化设计/开发/集成/联调/第三方测评/用户验收等。合同履约期限另含至2029-12-20，不能擅自解释为已上线。",
+      "functional_overlap": "采购名称只确认警务大模型公共能力平台；详细需求附件未读取，因此卷宗/时间线/矛盾/关系图/Agent均为待核实。",
+      "accepted_or_operational": "本轮该编号官方检索返回招标、结果、合同3条；未检得验收公告。未检得不证明不存在，也不能声称已验收。",
+      "source_ids": [
+        "S21",
+        "S22",
+        "S23"
+      ],
+      "attachment_access_issue": "尝试公开ZIP附件的浏览器读取时工具返回 Blocked: URL targets a private or internal address；遵守阻断，未进一步访问或解读附件。"
+    }
+  ],
+  "candidate_checks": [
+    {
+      "candidate": "海致科技",
+      "found": "海致“自主建模”使用指南V1.0面向业务警员；AtlasGraph与AtlasStudio图分析功能有官方产品页",
+      "source_ids": [
+        "S10",
+        "S11"
+      ],
+      "missing": "具名国内刑侦公安采购/验收未找到；手册只部分正文；不能把通用Atlas工业智能体当刑侦Agent落地。"
+    },
+    {
+      "candidate": "海鑫科金",
+      "found": "HABIS X云智能多生物识别系统（合作伙伴Intel案例）；HXF2指掌纹识别算法（丰台政府园区报道）",
+      "source_ids": [
+        "S13",
+        "S14",
+        "S20"
+      ],
+      "missing": "未找到刑事卷宗/笔录矛盾/关系图LLM Agent具体产品一手证据；指纹比对是刑侦互补工具，不是卷宗竞品。官网正文访问失败。"
+    },
+    {
+      "candidate": "华为",
+      "found": "“天机镜”城市安全大模型，华为与宜兴市大数据发展有限公司、软通智慧搭建城市生命线监测系统",
+      "source_ids": [
+        "S15"
+      ],
+      "missing": "本轮未找到可核验的专业刑警卷宗分析产品或采购；宜兴燃气/排水/桥梁等属于城市安全，不可错算刑事案件落地。"
+    },
+    {
+      "candidate": "南威“獬豸智审”",
+      "found": "搜索发现第三方文章声称卷宗审查及跨笔录比对",
+      "source_ids": [],
+      "missing": "没有在本轮取得厂商/公安/采购一手正文，不列入8个主样本；仅追踪线索，不作真实部署证据。"
+    },
+    {
+      "candidate": "贵州华城/汇川公安平台",
+      "found": "协会及转载资料提到公安实战AI大模型平台",
+      "source_ids": [],
+      "missing": "本轮未读到采购、验收或客户官方正文；宣传准确率不采用。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://myai.sdic.com.cn/gtznn/kjcx/hxcp/ggaqdsj/rgzn/webinfo/2025/06/1751193342254949.htm",
+      "title": "“小美”智能警务助手",
+      "publisher": "国投智能",
+      "evidence_type": "vendor_claim",
+      "published_date": "2025-06-11",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "3、线索筛查：支持跨多警务平台，从海量数据中快速筛查出用户想要的重要线索，节约破案时间。",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "5、警务引导：不仅能提供法律法规等咨询，还能提供警务知识库问答服务，快速找出工作指南，提高工作效率。",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": false,
+          "error": "Keyless Parallel extract failed: request failed: HTTPSConnectionPool(host='search.parallel.ai', port=443): Read timed out. (read timeout=30). Set PARALLEL_API_KEY (https://parallel.ai) or another web backend via `hermes tools` for reliable service.",
+          "characters_returned": 0
+        },
+        {
+          "method": "http_requests_htmlparser",
+          "success": true,
+          "http_status": 200,
+          "error": null,
+          "final_url": "https://myai.sdic.com.cn/gtznn/kjcx/hxcp/ggaqdsj/rgzn/webinfo/2025/06/1751193342254949.htm"
+        }
+      ],
+      "limitations": "厂商具体产品页；未给客户名称、地区、采购、验收或私有化交付信息。页面显示日期2025-06-11；CMS生成时间为2026-06-17，不当成产品发布日期。",
+      "found_in_search_queries": []
+    },
+    {
+      "id": "S02",
+      "url": "http://www.chinapeace.gov.cn/chinapeace/c100045/2021-02/17/content_12451709.shtml",
+      "title": "“206”系统是个什么系统？其如何成为上海有效防范冤假错案的“利器”",
+      "publisher": "中国长安网（来源法治日报，含上海公安客户采访）",
+      "evidence_type": "government_hosted_customer_reporting",
+      "published_date": "2021-02-17",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "“206”系统全称“刑事案件智能辅助办案系统”",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "目前“206”系统在上海公安已被全面深度应用",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "然而，“206”系统在公安的应用并不是一蹴而就的。",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": false,
+          "error": "Keyless Parallel extract failed: request failed: HTTPSConnectionPool(host='search.parallel.ai', port=443): Read timed out. (read timeout=30). Set PARALLEL_API_KEY (https://parallel.ai) or another web backend via `hermes tools` for reliable service.",
+          "characters_returned": 0
+        },
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 4801
+        },
+        {
+          "method": "http_requests_htmlparser",
+          "success": true,
+          "http_status": 200,
+          "error": null,
+          "final_url": "http://www.chinapeace.gov.cn/chinapeace/c100045/2021-02/17/content_12451709.shtml"
+        }
+      ],
+      "limitations": "官方政法网站刊载法治日报采访，包含上海公安负责人说法；比厂商营销更强，但不是采购、验收或独立性能测试。",
+      "found_in_search_queries": [
+        "Q2"
+      ]
+    },
+    {
+      "id": "S03",
+      "url": "https://www.trs.com.cn/ljwm/xwhd/201903/t20190329_8829.html",
+      "title": "AI案例 | 让公安机关越用越好的人工智能辅助办案",
+      "publisher": "拓尔思",
+      "evidence_type": "vendor_claim",
+      "published_date": "2018-11-05",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "TRS智能辅助办案系统以公安机关执法规范化监督为核心，面向基层公安民警办理的各类刑事案件",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "构建案件知识图谱，结合证据校验规则（可人工配置）",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "该系统已于2018年6月在该省部分市州上线试点运行",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 1505
+        }
+      ],
+      "limitations": "正文发布时间2018-11-05，URL路径201903，采用正文日期。某省客户未具名，试点和所有成效数字仅为厂商陈述。",
+      "found_in_search_queries": [
+        "Q7R"
+      ]
+    },
+    {
+      "id": "S04",
+      "url": "https://www.trs.com.cn/xyfa/ggaq/ga/znfzba/",
+      "title": "智能辅助办案",
+      "publisher": "拓尔思",
+      "evidence_type": "vendor_claim",
+      "published_date": null,
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "从大量卷宗中智能识别和挖掘出案件的关键信息",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "形成案件图谱，进行串并案等有效分析",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 606
+        }
+      ],
+      "limitations": "当前厂商产品页；无明确发布日期。",
+      "found_in_search_queries": [
+        "Q7R"
+      ]
+    },
+    {
+      "id": "S05",
+      "url": "https://www.suzhou.gov.cn/szsrmzf/szyw/202507/01b8a0aee949478e85187454a54dbee3.shtml",
+      "title": "十佳智慧警务典型案例公布 昆山AI智能笔录辅助系统入选",
+      "publisher": "苏州市人民政府门户",
+      "evidence_type": "government_reporting",
+      "published_date": null,
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "昆山市公安局申报的“AI智能笔录辅助系统”入选十佳智慧警务典型案例",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "拥有笔录自动生成、问题智能推荐、笔录质量核查、多维综合研判、专案笔录协同等多种能力",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 457
+        },
+        {
+          "method": "http_requests_htmlparser",
+          "success": false,
+          "http_status": 403,
+          "error": null,
+          "final_url": "https://www.suzhou.gov.cn/szsrmzf/szyw/202507/01b8a0aee949478e85187454a54dbee3.shtml"
+        }
+      ],
+      "limitations": "政府报道正文读取成功；本轮未取得发布日期字段，只有URL路径202507；不得推定具体日。",
+      "found_in_search_queries": [
+        "Q7R"
+      ]
+    },
+    {
+      "id": "S06",
+      "url": "https://anpcn.com:8447/informationDetail?id=168&type=fagy",
+      "title": "人工智能在公安笔录中的应用实践——AI智能笔录辅助系统",
+      "publisher": "智领安平行业网，标注来源江苏省昆山市公安局",
+      "evidence_type": "customer_authored_case_republished",
+      "published_date": "2026-03-21",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "自研自建全新升级打造AI智能笔录辅助系统，私有化部署Qwen、DeepSeek等大模型集群",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "逻辑矛盾检测、涉案要素提取、关系图谱生成及AI专家点评",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "时间线冲突或关键细节差异",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "各地公安机关私有化部署开源模型、Dify平台",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "系统后台接口基于Dify工作流搭建",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 4275
+        }
+      ],
+      "limitations": "客户案例署名来源为昆山公安，刊载在行业平台而非公安官网；日期2026-03-21，与文内“自今年4月份上线以来”不一致，不能把上线年确定为2026。",
+      "found_in_search_queries": []
+    },
+    {
+      "id": "S07",
+      "url": "https://gridsum.com/cases/163.html",
+      "title": "天津市公安局客户案例：警智智能执法办案与管理平台",
+      "publisher": "国双科技",
+      "evidence_type": "vendor_hosted_customer_case",
+      "published_date": null,
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "形成侦查全流程轨迹",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "案件卷宗智能归档",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "系统已于2020年1月1日在天津市公安局正式全面上线",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 1496
+        }
+      ],
+      "limitations": "国双官方客户案例，不是天津公安独立公告；称2020-01-01上线，文章发布日期未显示。侦查全流程轨迹指办案流程，不等同案发事件时间线。",
+      "found_in_search_queries": []
+    },
+    {
+      "id": "S08",
+      "url": "https://cloud.baidu.com/solution/gongan.html",
+      "title": "公安大模型SaaS化应用解决方案",
+      "publisher": "百度智能云",
+      "evidence_type": "vendor_claim",
+      "published_date": null,
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "支持案情分析、笔录解析、资金研判、轨迹分析、反诈研判等多类智能体能力",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "支持完整 SaaS 服务、单 Agent 调用、多 Agent 组合等模式",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": false,
+          "error": "Keyless Parallel extract failed: request failed: HTTPSConnectionPool(host='search.parallel.ai', port=443): Read timed out. (read timeout=30). Set PARALLEL_API_KEY (https://parallel.ai) or another web backend via `hermes tools` for reliable service.",
+          "characters_returned": 0
+        },
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 795
+        },
+        {
+          "method": "browser_dom",
+          "success": true,
+          "error": null,
+          "page_title": "🐴 公安大模型SaaS化应用解决方案-百度智能云"
+        }
+      ],
+      "limitations": "厂商方案页；没有客户名单、价格、采购或验收证据。SaaS为方案名称/厂商交付主张，不能推断公网托管敏感卷宗。",
+      "found_in_search_queries": [
+        "Q8"
+      ]
+    },
+    {
+      "id": "S09",
+      "url": "https://edu.iflytek.com/about-us/news/company-news/2003.html",
+      "title": "科大讯飞助力打造安徽检察人工智能辅助办案系统",
+      "publisher": "科大讯飞",
+      "evidence_type": "vendor_claim",
+      "published_date": "2025-04-08",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "4月3日，安徽省检察院联合科大讯飞打造的安徽省检察院人工智能辅助办案系统",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "通过分析全案言词证据，列明相互印证点、矛盾点，并提示检察官确认是否存在隐瞒或陈述错误等情况",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": false,
+          "error": "Keyless Parallel extract failed: request failed: HTTPSConnectionPool(host='search.parallel.ai', port=443): Read timed out. (read timeout=30). Set PARALLEL_API_KEY (https://parallel.ai) or another web backend via `hermes tools` for reliable service.",
+          "characters_returned": 0
+        },
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 2759
+        }
+      ],
+      "limitations": "检察院使用场景，是相邻卷宗分析竞品，不是专业刑警直接采购；2025-04-03上线来自厂商报道，非本轮核验的客户公告。",
+      "found_in_search_queries": [
+        "Q2"
+      ]
+    },
+    {
+      "id": "S10",
+      "url": "https://mkp-res.hc-cdn.com/marketplace/public/app/attachment/20220708/99ce4011-45a2-4d43-ab18-5eb1b1b741b5/2207080523036603.pdf",
+      "title": "自主建模 使用指南 V1.0",
+      "publisher": "北京海致科技集团有限公司，华为云市场附件",
+      "evidence_type": "vendor_authored_technical_document",
+      "published_date": null,
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "partial",
+      "quotes": [
+        {
+          "text": "是面向业务警员的交互式数据研判分析探查工具",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "导出，图表可视化、预警推送、输出到第三方的系统等。",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 3783
+        }
+      ],
+      "limitations": "厂商署名文档在云市场CDN；web_extract只返回少量正文片段与目录，正文为部分读取；20220708是附件路径，不是文档发布时间。",
+      "found_in_search_queries": [
+        "Q3R"
+      ]
+    },
+    {
+      "id": "S11",
+      "url": "https://atlasgraph.haizhi.com/zh/",
+      "title": "AtlasGraph / AtlasStudio",
+      "publisher": "海致科技",
+      "evidence_type": "vendor_claim",
+      "published_date": null,
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "AtlasStudio是基于AtlasGraph图数据库的一站式可视化图分析工具。",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "基于角色的权限控制体系",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "用户操作、系统事件可追溯。",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 890
+        }
+      ],
+      "limitations": "图数据库与图可视化通用技术页；不能据此证明具名公安客户或刑事Agent部署。",
+      "found_in_search_queries": [
+        "Q3R"
+      ]
+    },
+    {
+      "id": "S12",
+      "url": "https://myai.sdic.com.cn/gtznn/kjcx/hxcp/ggaqdsj/rgzn/webinfo/2025/06/1751193342205451.htm",
+      "title": "Qiko大模型智能本",
+      "publisher": "国投智能",
+      "evidence_type": "vendor_claim",
+      "published_date": "2025-06-11",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "大模型一体化装备，内置国内首个公共安全大模型，私有化部署",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "内置取证百科、群聊分析等8个取证智能体",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 609
+        },
+        {
+          "method": "http_requests_htmlparser",
+          "success": true,
+          "http_status": 200,
+          "error": null,
+          "final_url": "https://myai.sdic.com.cn/gtznn/kjcx/hxcp/ggaqdsj/rgzn/webinfo/2025/06/1751193342205451.htm"
+        }
+      ],
+      "limitations": "本地一体化装备、取证智能体为厂商明示。页面同现30K和128K上下文说法，存在冲突；不采信统一性能数值，也不据此推定小美产品交付方式。",
+      "found_in_search_queries": []
+    },
+    {
+      "id": "S13",
+      "url": "https://www.intel.com/content/dam/www/public/cn/zh/pdfs/accelerate-haixin-finger-and-palm-print-recognition-brief-cn.pdf",
+      "title": "全新至强平台为海鑫指掌纹识别比对方案带来性能加速度",
+      "publisher": "英特尔（海鑫技术合作伙伴）",
+      "evidence_type": "partner_authored_technical_case",
+      "published_date": null,
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "海鑫云智能多生物识别系统 HABIS X",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "某直辖市公安局",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "已经用于现场测试",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 5668
+        }
+      ],
+      "limitations": "合作伙伴一手技术案例，非公安客户公告；某直辖市没有具名，现场测试不等同正式投产或验收。",
+      "found_in_search_queries": [
+        "Q4R"
+      ]
+    },
+    {
+      "id": "S14",
+      "url": "https://www.bjft.gov.cn/ftq/bmdt/202402/17da80b2ff70427b9e01f15cc0d038cf.shtml",
+      "title": "园区动态：海鑫科金指纹领域NIST测试",
+      "publisher": "北京市丰台区人民政府，来源丰台园管委",
+      "evidence_type": "government_hosted_industry_reporting",
+      "published_date": "2024-02-22",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "HXF2云智能指掌纹自动识别",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "新一代指纹识别算法 HXF2",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "协助六省市开展缅北回流人员历史案件查询比对工作",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 2536
+        }
+      ],
+      "limitations": "政府园区产业报道，引用厂商技术与应用陈述；未提供案件名单或采购合同，不采信宣传性能为独立实测。",
+      "found_in_search_queries": [
+        "Q4R"
+      ]
+    },
+    {
+      "id": "S15",
+      "url": "https://e.huawei.com/cn/news/2025/industries/government/city-security-model-mirror",
+      "title": "华为与宜兴联合发布城市安全大模型“天机镜”",
+      "publisher": "华为",
+      "evidence_type": "vendor_claim",
+      "published_date": "2025-03-31",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "城市生命线燃气、排水防涝、供水、桥梁、道路等9个业务场景的安全监测管理系统",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 1271
+        }
+      ],
+      "limitations": "真城市安全项目，但主要为城市生命线/燃气/排水等，不证明刑事卷宗分析落地；排除出直接竞品。",
+      "found_in_search_queries": [
+        "Q5R"
+      ]
+    },
+    {
+      "id": "S16",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/gkzb/202605/t20260515_26575014.htm",
+      "title": "广州公安2026年人工智能大模型警务公共能力支撑平台建设项目（CZ2026-0252）招标公告",
+      "publisher": "中国政府采购网",
+      "evidence_type": "procurement_announcement_search_index_only",
+      "published_date": "2026-05-15",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": false,
+      "body_read_completeness": "failed_or_search_only",
+      "quotes": [
+        {
+          "text": "项目编号：CZ2026-0252",
+          "verified_in_search_index": true,
+          "verified_in_retrieved_body": false
+        },
+        {
+          "text": "预算金额：4,143,623.00元",
+          "verified_in_search_index": true,
+          "verified_in_retrieved_body": false
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": false,
+          "error": "Keyless Keenable extract failed: HTTP 504: {\"error\":\"Gateway timeout\",\"message\":\"The target page took too long to respond\"}. Set KEENABLE_API_KEY (https://keenable.ai) for reliable service.",
+          "characters_returned": 0
+        },
+        {
+          "method": "browser_dom",
+          "success": false,
+          "error": null,
+          "page_title": "🐴 403 Forbidden"
+        }
+      ],
+      "limitations": "搜索返回官方采购摘要，正文多路径403或超时；已由广东官方S21成功补证，勿只引本源摘要。",
+      "found_in_search_queries": [
+        "Q5R",
+        "Q7BR"
+      ]
+    },
+    {
+      "id": "S17",
+      "url": "https://www.qianlima.com/bid-605290589.html",
+      "title": "广州公安CZ2026-0252结果公告转载",
+      "publisher": "千里马招标网",
+      "evidence_type": "third_party_procurement_republication",
+      "published_date": "2026-06-12",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "1,864,631.00元",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 3605
+        }
+      ],
+      "limitations": "第三方采购转载，部分字段会员遮挡；金额与供应商后来由官方S22/S23核实。",
+      "found_in_search_queries": [
+        "Q7BR"
+      ]
+    },
+    {
+      "id": "S18",
+      "url": "https://www.bidcenter.com.cn/news-424735203-4.html",
+      "title": "广州公安CZ2026-0252结果公告转载",
+      "publisher": "采招网",
+      "evidence_type": "third_party_procurement_republication",
+      "published_date": "2026-06-12",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "行业应用软件开发服务",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 3100
+        },
+        {
+          "method": "http_requests_htmlparser",
+          "success": false,
+          "http_status": 403,
+          "error": null,
+          "final_url": "https://www.bidcenter.com.cn/news-424735203-4.html"
+        }
+      ],
+      "limitations": "第三方采购转载，关键字段遮挡；官方S22为首选。",
+      "found_in_search_queries": [
+        "Q7BR"
+      ]
+    },
+    {
+      "id": "S19",
+      "url": "https://download.ccgp.gov.cn/oss/download?uuid=890E9BEB5CAF55BE29FD9D0D573F96",
+      "title": "中国信息通信研究院：基于大模型的智能化应用原型研制-跨模态检索模块开发试制等招标文件",
+      "publisher": "中国政府采购网下载附件；中国信息通信研究院",
+      "evidence_type": "official_procurement_out_of_scope",
+      "published_date": "2026-06",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "采购人：中国信息通信研究院",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "用于科研",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": true,
+          "error": null,
+          "characters_returned": 3144
+        }
+      ],
+      "limitations": "全文说明用于科研，采购人为中国信息通信研究院，不属于公安刑侦采购，明确排除。",
+      "found_in_search_queries": [
+        "Q7"
+      ]
+    },
+    {
+      "id": "S20",
+      "url": "https://www.hisign.com.cn/",
+      "title": "海鑫科金官网",
+      "publisher": "海鑫科金",
+      "evidence_type": "vendor_search_index_only",
+      "published_date": null,
+      "retrieved_date": "2026-10-08",
+      "body_read_success": false,
+      "body_read_completeness": "failed_or_search_only",
+      "quotes": [],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": false,
+          "error": "Keyless Keenable extract failed: HTTP 500: {\"error\":\"Internal server error\"}. Set KEENABLE_API_KEY (https://keenable.ai) for reliable service.",
+          "characters_returned": 0
+        },
+        {
+          "method": "browser_dom",
+          "success": false,
+          "error": null,
+          "page_title": "🐴 隐私设置错误"
+        }
+      ],
+      "limitations": "官网搜索摘要能读，但直接访问存在证书不匹配、拦截；未读到官网产品正文。",
+      "found_in_search_queries": [
+        "Q4R"
+      ]
+    },
+    {
+      "id": "S21",
+      "url": "https://gdgpo.czt.gd.gov.cn/maincms-web/noticeGd?type=notice&id=4c42fa7c-2ab4-4db2-a0bd-7193db6ab744&channel=fca71be5-fc0c-45db-96af-f513e9abda9d&noticeType=001011&openTenderCode=CZ2026-0252&channelName=%E9%A1%B9%E7%9B%AE%E9%87%87%E8%B4%AD%E5%85%AC%E5%91%8A&path=%2FnoticeInformationGd",
+      "title": "广州市公安局大数据警务支队2026年人工智能大模型警务公共能力支撑平台建设项目（CZ2026-0252）招标公告",
+      "publisher": "广州市政府采购中心 / 广东省政府采购网",
+      "evidence_type": "procurement_tender",
+      "published_date": "2026-05-15",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "预算金额：4,143,623.00元",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "合同签订之日起 18个月内完成调研、深化设计、系统设计、软件开发、安装实施、系统集成、联调测试、第三方测评、用户验收及合同验收及终验申请提交工作。",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": false,
+          "error": "Keyless Keenable extract failed: HTTP 422: {\"error\":\"Unprocessable entity\",\"message\":\"The page was reached but content could not be extracted\"}. Set KEENABLE_API_KEY (https://keenable.ai) for reliable service.",
+          "characters_returned": 0
+        },
+        {
+          "method": "browser_dom",
+          "success": true,
+          "error": null
+        }
+      ],
+      "limitations": "官方招标正文浏览器读取成功；需求附件下载被工具访问安全检查阻断，未读取详细功能；招标不等于交付。",
+      "found_in_search_queries": []
+    },
+    {
+      "id": "S22",
+      "url": "https://gdgpo.czt.gd.gov.cn/maincms-web/noticeGd?type=notice&id=851d05a8-c498-44c7-a130-0604292094fb&channel=fca71be5-fc0c-45db-96af-f513e9abda9d&noticeType=001021&openTenderCode=CZ2026-0252&channelName=%E9%A1%B9%E7%9B%AE%E9%87%87%E8%B4%AD%E5%85%AC%E5%91%8A&path=%2FnoticeInformationGd",
+      "title": "广州市公安局大数据警务支队2026年人工智能大模型警务公共能力支撑平台建设项目（CZ2026-0252）结果公告",
+      "publisher": "广州市政府采购中心 / 广东省政府采购网",
+      "evidence_type": "procurement_award",
+      "published_date": "2026-06-12",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "中国电信股份有限公司广东分公司",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "1,864,631.00元",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "行业应用软件开发服务",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": false,
+          "error": "Keyless Keenable extract failed: HTTP 422: {\"error\":\"Unprocessable entity\",\"message\":\"The page was reached but content could not be extracted\"}. Set KEENABLE_API_KEY (https://keenable.ai) for reliable service.",
+          "characters_returned": 0
+        },
+        {
+          "method": "browser_dom",
+          "success": true,
+          "error": null
+        }
+      ],
+      "limitations": "官方中标结果正文浏览器读取成功；中标不等于验收。",
+      "found_in_search_queries": []
+    },
+    {
+      "id": "S23",
+      "url": "https://gdgpo.czt.gd.gov.cn/maincms-web/noticeGd?type=notice&id=379e8e92-2caf-4014-8f3f-4c7a0df9de62&channel=fca71be5-fc0c-45db-96af-f513e9abda9d&noticeType=001054&openTenderCode=CZ2026-0252&channelName=%E9%A1%B9%E7%9B%AE%E9%87%87%E8%B4%AD%E5%85%AC%E5%91%8A&path=%2FnoticeInformationGd",
+      "title": "广州市公安局广州市公安局大数据警务支队2026年人工智能大模型警务公共能力支撑平台建设项目的合同公告",
+      "publisher": "广州市公安局 / 广东省政府采购网",
+      "evidence_type": "procurement_contract",
+      "published_date": "2026-07-22",
+      "retrieved_date": "2026-10-08",
+      "body_read_success": true,
+      "body_read_completeness": "readable_body",
+      "quotes": [
+        {
+          "text": "GDGZA2609463CGN00",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "合同金额： 1,864,631.00元",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "履约期限：2026年07月20日至2029年12月20日",
+          "verified_in_retrieved_body": true
+        },
+        {
+          "text": "2026年07月20日",
+          "verified_in_retrieved_body": true
+        }
+      ],
+      "access_attempts": [
+        {
+          "method": "web_extract",
+          "success": false,
+          "error": "Keyless Keenable extract failed: HTTP 422: {\"error\":\"Unprocessable entity\",\"message\":\"The page was reached but content could not be extracted\"}. Set KEENABLE_API_KEY (https://keenable.ai) for reliable service.",
+          "characters_returned": 0
+        },
+        {
+          "method": "browser_dom",
+          "success": true,
+          "error": null
+        }
+      ],
+      "limitations": "官方合同公告正文浏览器读取成功；合同签订不等于实际部署或验收，未读取合同附件。",
+      "found_in_search_queries": []
+    }
+  ],
+  "validation": {
+    "main_product_count": 8,
+    "source_count": 23,
+    "quote_count": 53,
+    "quote_matches": true,
+    "official_procurement_documents_read": 3,
+    "source_ids_unique": true,
+    "body_quote_count": 51,
+    "search_only_quote_count": 2
+  },
+  "limitations": [
+    "公开样本非市场全量，无价格榜单或性能排名。",
+    "厂商/客户署名指标未独立测试，不以破案率或自动定罪为项目价值。",
+    "正文成功不意味着外部事实已独立验证；采购、中标、合同、试用、正式上线、验收为不同阶段。",
+    "部分站点403、证书错误、正文抽取超时或动态渲染；已尝试官方区域源与浏览器。",
+    "JSON只保留引用所需原文与摘要，不保存卷宗、真实刑事个人资料、整页案情或采购账号银行信息。"
+  ]
+}

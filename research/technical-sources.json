@@ -1,0 +1,210 @@
+{
+  "research_date": "2026-10-08",
+  "sources": [
+    {
+      "id": "T01",
+      "title": "PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "source_type": "repository",
+      "verified_claim": "PP-StructureV3提供结构化PDF/图片解析及文本/表格坐标；仓库Apache-2.0",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T02",
+      "title": "BGE-M3模型卡",
+      "url": "https://huggingface.co/BAAI/bge-m3/raw/main/README.md",
+      "source_type": "model_card",
+      "verified_claim": "模型卡license: mit；支持dense/sparse/multi-vector；建议hybrid retrieval + reranking",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T03",
+      "title": "LangGraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "source_type": "repository",
+      "verified_claim": "MIT，持久工作流与human-in-the-loop；不代表默认生产安全",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T03A",
+      "title": "LangGraph Interrupts",
+      "url": "https://docs.langchain.com/oss/python/langgraph/interrupts",
+      "source_type": "documentation",
+      "verified_claim": "interrupt/checkpointer/Command(resume)实现人审暂停与恢复",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T04",
+      "title": "Qwen3-8B模型卡",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "source_type": "model_card",
+      "verified_claim": "8B参数候选模型；模型卡介绍推理/指令/工具能力，不提供刑侦准确率",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T05",
+      "title": "Qwen3 vLLM部署",
+      "url": "https://github.com/QwenLM/Qwen3/blob/main/docs/source/deployment/vllm.md",
+      "source_type": "documentation",
+      "verified_claim": "OpenAI-compatible本地API服务，支持Qwen3-8B；无硬件容量承诺",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T06",
+      "title": "pgvector LICENSE",
+      "url": "https://github.com/pgvector/pgvector/blob/master/LICENSE",
+      "source_type": "license",
+      "verified_claim": "PostgreSQL-style permissive license，保留版权与免责声明",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T06A",
+      "title": "pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "source_type": "repository",
+      "verified_claim": "PostgreSQL向量检索扩展；实际中文检索质量须实测",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T07",
+      "title": "PostgreSQL Row Security Policies",
+      "url": "https://www.postgresql.org/docs/current/ddl-rowsecurity.html",
+      "source_type": "documentation",
+      "verified_claim": "超级用户/BYPASSRLS绕过；owner通常绕过，可FORCE RLS；默认deny策略",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T08",
+      "title": "PDF.js",
+      "url": "https://mozilla.github.io/pdf.js/",
+      "source_type": "documentation",
+      "verified_claim": "基于Web标准的PDF解析与渲染平台",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T09",
+      "title": "Cytoscape.js",
+      "url": "https://github.com/cytoscape/cytoscape.js",
+      "source_type": "repository",
+      "verified_claim": "图分析/交互渲染；MIT",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T10",
+      "title": "FastAPI",
+      "url": "https://fastapi.tiangolo.com/",
+      "source_type": "documentation",
+      "verified_claim": "Python类型提示与OpenAPI/JSON Schema API框架；不引用厂商性能百分比",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T11",
+      "title": "Spring Security",
+      "url": "https://docs.spring.io/spring-security/reference/index.html",
+      "source_type": "documentation",
+      "verified_claim": "Spring身份认证/授权/常见攻击防护；不证明本项目安全",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T12",
+      "title": "Timesketch",
+      "url": "https://github.com/google/timesketch",
+      "source_type": "repository",
+      "verified_claim": "开源协作取证时间线、注释/评论；仓库明确不是官方Google产品",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T12A",
+      "title": "Timesketch官网",
+      "url": "https://timesketch.org/",
+      "source_type": "official_page",
+      "verified_claim": "open-source collaborative forensic timeline analysis",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T13",
+      "title": "Autopsy官网",
+      "url": "https://www.autopsy.com/",
+      "source_type": "official_page",
+      "verified_claim": "数字取证与调查工具；不是中文卷宗Agent",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T13A",
+      "title": "Autopsy版本许可证",
+      "url": "https://sleuthkit.org/autopsy/licenses.php",
+      "source_type": "license",
+      "verified_claim": "Autopsy2 GPL2；3/4 Apache2，但依赖需逐项核查",
+      "access_status": "read_body",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    },
+    {
+      "id": "T14",
+      "title": "Qwen3-1.7B LICENSE",
+      "url": "https://huggingface.co/Qwen/Qwen3-1.7B/blob/main/LICENSE",
+      "source_type": "license",
+      "verified_claim": "该具体权重标注Apache-2.0；不能推及所有Qwen模型",
+      "access_status": "search_only",
+      "accessed_on": "2026-10-08",
+      "publication_date": null,
+      "limitations": "官方技术资料；不是公安落地/刑侦效果/预算证明"
+    }
+  ],
+  "failed_paths": [
+    {
+      "url": "https://huggingface.co/BAAI/bge-m3/blob/main/LICENSE",
+      "status": "404",
+      "resolution": "使用官方raw README的license: mit标记；实际交付时复核制品"
+    }
+  ]
+}

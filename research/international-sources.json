@@ -1,0 +1,2074 @@
+{
+  "调研日期": "2026-10-08",
+  "范围": "国外警方/执法机关AI调查助手、数字取证与情报分析；欧美/以色列；仅证据型产品/客户/采购比较",
+  "方法": "以官方产品、技术文档、具名客户叙述和政府原始资料为主；不得由厂商总体客户数推定新AI模块部署",
+  "证据分级": {
+    "A": "政府/执法机关原始合同、会议、政策或自有部署发布；采购计划/阻止采购仍需标状态",
+    "B": "厂商具名客户案例或具名合同发布；不是独立政府授标原件",
+    "C": "匿名厂商案例/无法核验的real-world examples",
+    "D": "官方产品/技术文档/新品发布/demo，证明产品描述不等于客户在用",
+    "K": "框架/marketplace/vehicle/awardable采购路径或资格，非实际订单"
+  },
+  "统计": {
+    "竞品条目数": 10,
+    "不同厂商数": 9,
+    "已读取并引用来源数": 52,
+    "政府来源数": 6,
+    "结构化字段完整": true
+  },
+  "竞品": [
+    {
+      "编号": "P01",
+      "产品名称": "Cellebrite Genesis",
+      "厂商": "Cellebrite",
+      "地区": "以色列；在美国设业务实体（发布稿署名 Petah Tikva / Tysons Corner）",
+      "类别": "直接竞品：面向单案件的生成式/Agentic AI 调查助手",
+      "核心功能": [
+        "自然语言跨证据问答；支持 UFDR、文档、音视频、CDR 等多种证据格式",
+        "摘要、时间线、关系与跨文件连接、矛盾线索提示",
+        "答案回链原始材料，人工验证；单案件内可放多设备，不等于跨案件分析"
+      ],
+      "功能重合": {
+        "卷宗摘要": "明确：可问答和摘要，但中文纸质卷宗/OCR质量未验证",
+        "时间线": "明确：timeline 可视化",
+        "关系图": "明确：relationships / mind maps；不是已验证的身份认定",
+        "矛盾检查": "明确：页面写 contradictions；没有检出率/误报率证据",
+        "证据引用": "明确：每个回答链接来源材料；页码/音视频时码粒度未实测"
+      },
+      "部署与可用性": "官方 FAQ 明确 cloud-based，可独立于其他 Cellebrite 工具使用。2026-03-16 发布稿为 early access；另一官方文章写 2026-06 已 generally available。未找到 Genesis 专属本地/完全离线部署证明；不能用厂商全组合的 on-prem/hybrid 描述替代。",
+      "客户与采购证据": [
+        {
+          "层级": "B：厂商具名客户案例",
+          "内容": "官方 Genesis 文章引用 Ocean County Prosecutor’s Office 实验室主任 Jim Hill 与 Calcasieu Parish Sheriff’s Office 数字取证单位 Jerod K. Abshire，描述真实案工作与人工验证。只有厂商载体，未取到这些单位自己的发布或 Genesis 采购合同。",
+          "来源": [
+            "CEL05"
+          ]
+        },
+        {
+          "层级": "C：厂商匿名早期客户",
+          "内容": "首发稿引用匿名澳大利亚警方反恐侦探的早期体验；不当作具名规模化落地。",
+          "来源": [
+            "CEL06"
+          ]
+        }
+      ],
+      "未核实项": [
+        "中文/中文手写卷宗支持",
+        "源引用到页码/段落/时码的粒度",
+        "独立准确率与幻觉/矛盾检出率",
+        "具名客户自有发布、采购金额、离线部署"
+      ],
+      "来源": [
+        "CEL01",
+        "CEL05",
+        "CEL06"
+      ],
+      "正文读取": "是：官方产品 FAQ、官方案例文章与发布稿正文；不是产品实测。"
+    },
+    {
+      "编号": "P02",
+      "产品名称": "Cellebrite Guardian Investigate（Guardian 套件；旁列 Inseyets / Pathfinder）",
+      "厂商": "Cellebrite",
+      "地区": "以色列/美国",
+      "类别": "直接竞品：案件工作台与调查管理；含相邻数字取证/证据管理组合",
+      "核心功能": [
+        "把案件证据、文档、调查任务集中在同一工作台；自然语言问答与结构化报告",
+        "摘要文档、发现不一致、构建案件时间线、可视化关系",
+        "Guardian 本体承担证据管理/共享与保管链；Inseyets 负责提取/解析，Pathfinder 负责多设备与跨案件分析，不能混称同一个 Agent"
+      ],
+      "功能重合": {
+        "卷宗摘要": "明确：summarize documents",
+        "时间线": "明确：Build Timelines",
+        "关系图": "明确：可视化 relationships；Pathfinder 的 link analysis 另有官方证明",
+        "矛盾检查": "明确：spot inconsistencies；尚无正式评测",
+        "证据引用": "部分：Guardian 保管链、案内源数据与权限控制明确；Investigate 逐条生成断言的精确引用粒度未核实"
+      },
+      "部署与可用性": "Guardian / Guardian Investigate 官方均为 cloud-native / cloud-based，Investigate 写 Powered by AWS。Guardian Collaborate 的 FedRAMP High 是特定联邦环境描述，不可扩张到 Genesis 或所有 Investigate 功能。Pathfinder 单独明确支持 on-prem VM/实体服务器或 AWS VPC。",
+      "客户与采购证据": [
+        {
+          "层级": "D：产品页及厂商汇总",
+          "内容": "Guardian 产品页自称部署于全球执法机构，并列聚合机构数；没有读到能确定 Guardian Investigate AI 模块已被哪家警方采购的具名文件。",
+          "来源": [
+            "CEL03",
+            "CEL04"
+          ]
+        },
+        {
+          "层级": "A：政府已签合同，但只覆盖相邻 Inseyets 等取证产品",
+          "内容": "英国 Leicestershire PCC 的 2025/S 000-016210 为已签 Digital Forensics Software Renewal，供应商 CELLEBRITE UK LIMITED，列表含 Inseyets On-Prem Pro / Online Pro / PA Stand Alone。2025-03-31 签署，合同期 2025-04-01—2026-03-31。可证明取证产品真实采购与替换成本；不能证明 Genesis、Guardian Investigate 或 Pathfinder 在此采购内。",
+          "来源": [
+            "GOV11"
+          ]
+        }
+      ],
+      "未核实项": [
+        "Guardian Investigate 专属客户/合同",
+        "生成报告的断言级引用与版本留痕",
+        "FedRAMP/CJIS 主张对应的确切产品、区域与功能边界",
+        "Pathfinder 的本轮具名采购证据"
+      ],
+      "来源": [
+        "CEL03",
+        "CEL04",
+        "CEL02",
+        "GOV11",
+        "CEL01"
+      ],
+      "正文读取": "是：Guardian、Investigate、Pathfinder 与政府合同正文。Inseyets 独立产品页未读到可用正文，角色由 Guardian 集成说明和政府合同交叉确认。"
+    },
+    {
+      "编号": "P03",
+      "产品名称": "Magnet AI / Magnet Review Intelligent Insights（区别于历史 Magnet.AI）",
+      "厂商": "Magnet Forensics",
+      "地区": "加拿大（官方 Nashville 稿的检索正文署名 Waterloo, Ontario；当前新AI稿在美国 Nashville 发布）；早期区域为美国/英国",
+      "类别": "直接竞品：证据检索、引用型摘要与多分析 Agent 工作流；取证生态相邻",
+      "核心功能": [
+        "Magnet AI 是生态中的 AI intelligence engine，不是所有老产品统一改名",
+        "Review 的 Intelligent Insights 提供自然语言结构化调查摘要、关键发现和后续分析建议",
+        "基于 LLM 与 agentic workflow 分析关系、时间线和模式；Citation Verification；产生线索而非结论"
+      ],
+      "功能重合": {
+        "卷宗摘要": "明确：structured investigative summaries",
+        "时间线": "明确：Intelligent Insights 分析 timelines；Review 有 Timeline 视图",
+        "关系图": "部分：关系分析明确；本轮页面没有充分证实 Insights 原生关系图编辑器",
+        "矛盾检查": "未见明确专属能力；模式分析不等于证言矛盾检查",
+        "证据引用": "明确：verifiable citations linked directly to source evidence / Citation Verification"
+      },
+      "部署与可用性": "2026-04-21 官方发布 Magnet AI / Intelligent Insights。当前 Review 产品页明确“Intelligent Insights early access is available in the U.S. and UK regions”，不能把发布稿的 available 写成全球全面正式开放。本轮未确认 Review 新 AI 的私有化/完全离线部署与模型数据驻留。",
+      "客户与采购证据": [
+        {
+          "层级": "B：历史 AI 具名客户",
+          "内容": "Greensboro Police Department 的官方案例 PDF 中，Matthew Kraft 说明使用 AXIOM 内历史 Magnet.AI 预标注图像。不能当作 2026 年 Review Intelligent Insights 已落地的证据。",
+          "来源": [
+            "MAG03"
+          ]
+        },
+        {
+          "层级": "B：相邻自动化产品具名客户",
+          "内容": "2023-02-27 官方发布 Metro Nashville PD 使用 Magnet AUTOMATE 消除设备积压；这是取证任务编排，不是生成式 Agent 已完成自动破案。",
+          "来源": [
+            "MAG07"
+          ]
+        },
+        {
+          "层级": "D：新 AI 能力发布/早期开放",
+          "内容": "本轮未拿到具名警局自己的 Intelligent Insights 上线公告或采购合同。",
+          "来源": [
+            "MAG02",
+            "MAG04"
+          ]
+        }
+      ],
+      "未核实项": [
+        "Intelligent Insights 实际客户、采购与长期生产规模",
+        "云/内网/离线部署和中文支持",
+        "引用粒度及外部独立测试"
+      ],
+      "来源": [
+        "MAG01",
+        "MAG02",
+        "MAG04",
+        "MAG03",
+        "MAG07"
+      ],
+      "正文读取": "是：官方产品/发布正文与历史案例 PDF 提取文本；部分页面抽取省略，未看视频、未实测。"
+    },
+    {
+      "编号": "P04",
+      "产品名称": "Palantir Gotham / Gotham Europa + AIP（不是单一开箱即用刑侦助手）",
+      "厂商": "Palantir Technologies",
+      "地区": "美国；警方部署证据来自德国、采购争议证据来自英国",
+      "类别": "平台型直接/上位竞品：数据整合、调查情报与可定制 AI 工作流",
+      "核心功能": [
+        "Gotham / Europa 提供调查情报与多源数据、第三方 AI/ML 集成；当前 Gotham 首页也强调国防场景，不能直接当成刑侦功能说明书",
+        "AIP 提供 Ontology 上的 AI workflows、agents、AIP Logic、Chatbot Studio 与 Evals",
+        "AIP 的治理、审计、权限与 lineage 是平台能力；每家警方使用了哪些 AIP 功能需另证"
+      ],
+      "功能重合": {
+        "卷宗摘要": "部分/平台可构建：本轮未确认警方已用的具体卷宗摘要模板",
+        "时间线": "待验证：不能仅从 Gotham 品牌推断具体警局已启用 AI 时间线",
+        "关系图": "部分：政府证明多库数据关联，平台定位相符；本轮已读页面不足以确认警方具体图谱界面和自动关系认定",
+        "矛盾检查": "未见明确警方产品证据",
+        "证据引用": "部分：AIP 有 historical lineage / audit trails，不等同刑事证据断言级引用"
+      },
+      "部署与可用性": "Europa 官网明确 hybrid hosting / 可选本地 AI 厂商。德国 Hessen 内政部 2025-09-11 正文说明 HessenData 服务器与分析数据在州数据中心，警方掌握数据，访问按角色并记录。它证明该本地部署真实存在，不证明其他国家的所有 AIP AI 能力都能离线。",
+      "客户与采购证据": [
+        {
+          "层级": "A：政府自述真实部署",
+          "内容": "Hessen 内政部说明警方自 2017 年使用 HessenData，并提及 Palantir 的选型及其他德国州授标。该来源是政府对自身采购/部署的说明，不是本轮读到的原始授标合同；也未证实其使用生成式 AIP。",
+          "来源": [
+            "PAL05"
+          ]
+        },
+        {
+          "层级": "A：政府会议证明试点与被阻采购，非成功落地",
+          "内容": "伦敦议会 2026-06-17 逐字稿第 5 页明确，拟采购系统并未处于使用中，另有 separate pilot；MOPAC 因流程/竞争性/性价比问题阻止拟议 UOA 采购。不能把拟议 Palantir 合同写成签约上线，也未明确该试点产品是 Gotham 还是 AIP。",
+          "来源": [
+            "GOV12",
+            "GOV13"
+          ]
+        }
+      ],
+      "未核实项": [
+        "具名警方的 Gotham/AIP 产品版本与 AI 功能映射",
+        "警方卷宗摘要、时间线、矛盾检查、逐条证据引用的实测",
+        "HessenData 与 Gotham 商用版本的本轮政府文件映射",
+        "英国拟议采购后续是否重新完成"
+      ],
+      "来源": [
+        "PAL01",
+        "PAL03",
+        "PAL06",
+        "PAL05",
+        "GOV12",
+        "GOV13"
+      ],
+      "正文读取": "是：Gotham/Europa 官方页、AIP 文档、德国政府全文及英国会议 PDF；产品页部分抽取较短。"
+    },
+    {
+      "编号": "P05",
+      "产品名称": "Siren Investigate / Siren AI plugin / K9 Companion",
+      "厂商": "Siren",
+      "地区": "爱尔兰；本轮案例为匿名美国县级警长部门",
+      "类别": "直接竞品：检索与知识图谱调查平台 + 图谱型 AI 助手",
+      "核心功能": [
+        "Investigate 前端 + Federate/Elasticsearch 后端，多数据集联结检索、关系图、Geo/Temporal 分析",
+        "Siren AI plugin 接入多个 LLM；K9 Companion 对话、检索数据、解释与操作图谱，生成图谱报告",
+        "公开文档导航已有 Platform 16.0 / AI plugin 2.1；产品营销页面仍展示 Siren 14，不把营销文案当当前版本号"
+      ],
+      "功能重合": {
+        "卷宗摘要": "部分：生成基于用户图谱的报告；对完整卷宗材料的逐份摘要需实测",
+        "时间线": "明确：Investigate 有 Geo/Temporal / time analysis；K9 自动生成案情时间线未单独验证",
+        "关系图": "明确：graph browser / link analysis；K9 可理解并操作图谱",
+        "矛盾检查": "未见明示；图模式异常不等于证言矛盾核查",
+        "证据引用": "部分：连接原始 records / record-as-relation 数据；K9 每条回答的精确来源引文未确认"
+      },
+      "部署与可用性": "官方安装文档支持在 Investigate 实例安装插件；LLM 文档明确 OpenAI、Azure OpenAI、AWS Bedrock、OpenAI-compatible，并列 locally-hosted provider 示例。本地模型集成有公开证据，但不等于警方已验收全离线方案。K9 文档明确图谱节点/边数据会发送给配置的 LLM，私有模型/数据出域控制必须核对。",
+      "客户与采购证据": [
+        {
+          "层级": "C：厂商匿名实施案例",
+          "内容": "Siren 详述一个美国县级 sheriff 部门把 16 个系统与 UFED 取证数据汇聚成单一检索入口；写 Since implementing，但没有机构名称、合同或案号。",
+          "来源": [
+            "SIR02"
+          ]
+        },
+        {
+          "层级": "D：K9 产品与技术文档",
+          "内容": "技术文档证明 K9 是实际存在的插件能力，不证明上述匿名客户已采购 K9/生成式功能。未找到本轮政府采购文件。",
+          "来源": [
+            "SIR06",
+            "SIR07"
+          ]
+        }
+      ],
+      "未核实项": [
+        "K9 具名执法生产客户及采购",
+        "逐断言证据引用和矛盾检测",
+        "本地化部署、模型出口控制的客户验收证据"
+      ],
+      "来源": [
+        "SIR01",
+        "SIR02",
+        "SIR03",
+        "SIR06",
+        "SIR07",
+        "SIR08",
+        "SIR09",
+        "SIR10"
+      ],
+      "正文读取": "是：产品、匿名案例与当前 AI/平台技术文档；旧营销链接 14.0 文档返回 404，改读文档实际导航中的 16.0/2.1。"
+    },
+    {
+      "编号": "P06",
+      "产品名称": "i2 Analyst’s Notebook / iBase / Analysis Hub（未核实“i2 Copilot”正式产品）",
+      "厂商": "i2 Group / Harris Computer",
+      "地区": "英国业务；2022 年进入加拿大 Harris / Constellation 集团；本轮案例加拿大",
+      "类别": "相邻成熟竞品：情报关系图、时间分析、共享数据库；AI 化处于扩展",
+      "核心功能": [
+        "Analyst’s Notebook 对结构化/非结构化数据进行可视分析，实体、链接、事件、时间线、属性",
+        "iBase / Analysis Hub 支持共享调查情报环境；案件图谱、汇报与跨团队协作",
+        "官网 Responsible AI 写 machine learning / natural language capabilities 与人工主导；未读到正式名为 Copilot 的已上线刑侦 Agent 证据"
+      ],
+      "功能重合": {
+        "卷宗摘要": "部分：图表/情报产品与非结构化数据处理；LLM 全卷宗自动摘要未确认",
+        "时间线": "明确：timelines / temporal analysis",
+        "关系图": "明确：entities、links、network analysis",
+        "矛盾检查": "未确认自动化语义矛盾检查",
+        "证据引用": "部分：承载数据与图表，可人工核查；生成式答案逐条引文未确认"
+      },
+      "部署与可用性": "Analyst’s Notebook 官网明确 desktop；具名客户案例写 iBase / Analysis Hub 通过 secure virtual desktops 访问自有基础设施，客户可自主部署。AI 页面说 wherever possible 在客户控制环境运行，是原则，非所有 AI 功能离线可用证明。",
+      "客户与采购证据": [
+        {
+          "层级": "B：厂商具名客户故事",
+          "内容": "Ryan Prox 的官方故事明确 Vancouver Police Department 使用 Analyst’s Notebook / iBase，随后构建 British Columbia 共享 CRIME 数据仓库；是实际客户叙述，不是本轮政府合同。",
+          "来源": [
+            "I202"
+          ]
+        },
+        {
+          "层级": "D：AI 原则及产品说明",
+          "内容": "未见具名警方采购“Copilot”或新生成式 Agent 的来源。i2 的传统部署不能等同最新 LLM 能力已被部署。",
+          "来源": [
+            "I203",
+            "I204"
+          ]
+        }
+      ],
+      "未核实项": [
+        "正式 Copilot 名称、GA/版本、客户证据",
+        "LLM 摘要/矛盾检查/引用粒度",
+        "本轮原始警方授标文件"
+      ],
+      "来源": [
+        "I201",
+        "I202",
+        "I203",
+        "I204",
+        "I205"
+      ],
+      "正文读取": "是：官方产品、所有权历史、AI原则和客户全文；未依赖旧“IBM i2”名称作为当前归属。"
+    },
+    {
+      "编号": "P07",
+      "产品名称": "DataWalk Graph + AI Investigations Platform",
+      "厂商": "DataWalk S.A. / DataWalk Inc.",
+      "地区": "波兰/美国（公司页列 Wroclaw 与 Redwood City）",
+      "类别": "直接/平台竞品：知识图谱、财务/刑事情报调查与 AI 摘要",
+      "核心功能": [
+        "合并结构化/非结构化证据、知识图谱、本体、多跳/可视查询、关系图、资金流、报告与案件管理",
+        "执法页明确 LLM-generated summaries；匿名联邦警方案例写 GenAI 提取文本实体、转写音频、生成摘要",
+        "数据血缘、权限、可审计协作；不是自动定罪或可直接采信的 AI 证据"
+      ],
+      "功能重合": {
+        "卷宗摘要": "明确：LLM summaries / transcription summary",
+        "时间线": "部分：事件/时空与关联分析平台有支撑；本轮没有足够正文锁定自动案情时间线输出形式",
+        "关系图": "明确：knowledge graph / link charts / flows",
+        "矛盾检查": "部分：anomalies / hypothesis testing；不等同证人陈述矛盾检查",
+        "证据引用": "部分：lineage / audit / reproducibility 明确；LLM 句句引用到原始页码/时码未确认"
+      },
+      "部署与可用性": "官方强调客户对系统与数据的 full ownership/control，可自扩展；本轮未读到适用于警方新 AI 的完整云/本地/离线 SKU 清单。可购买 COTS 与支持服务。不能把公司国防页的 air-gapped 描述扩大到每项执法 AI。",
+      "客户与采购证据": [
+        {
+          "层级": "B：具名选择客户，但为厂商稿",
+          "内容": "2019-10-16 厂商公告 Anderson（South Carolina）Police Department 选择 DataWalk；正文当时使用将来时 will use，不能证明当前仍在用或已启用生成式 AI。",
+          "来源": [
+            "DAT07"
+          ]
+        },
+        {
+          "层级": "B：厂商称真实 DOJ 延续合同",
+          "内容": "2026-02-04 官方稿写 RII 获多年延续合同，DataWalk 自 2019 年为 DOJ MNF 的 SIFT 环境组件。本轮未找到对应政府授标原件，不升级为 A。",
+          "来源": [
+            "DAT08"
+          ]
+        },
+        {
+          "层级": "C：匿名欧洲联邦警方案例",
+          "内容": "10-week project 写使用生成式 AI 做文本实体提取、音频转写/摘要；机构不具名，无法独立核实。",
+          "来源": [
+            "DAT02"
+          ]
+        },
+        {
+          "层级": "K：采购渠道，非客户已采购",
+          "内容": "官网列 RII GSA、DOJ BPA、NASA SEWP、SLSA 等 vehicle。FBI/DEA/ATF 等“can utilize”只代表可能采购，不能写已全部使用；$500m 为更大 BPA 背景/上限，不是 DataWalk 订单价。",
+          "来源": [
+            "DAT06"
+          ]
+        }
+      ],
+      "未核实项": [
+        "DOJ 延续授标原件与 DataWalk 金额份额",
+        "最新具名警方生成式 AI 生产部署",
+        "离线能力与断言级证据引用"
+      ],
+      "来源": [
+        "DAT01",
+        "DAT02",
+        "DAT04",
+        "DAT06",
+        "DAT07",
+        "DAT08",
+        "DAT09"
+      ],
+      "正文读取": "是：产品、执法页、公司地址、具名发布稿与匿名案例/vehicle 正文。"
+    },
+    {
+      "编号": "P08",
+      "产品名称": "Penlink CoAnalyst / CoAnalyst for PLX",
+      "厂商": "Penlink",
+      "地区": "美国（官方发布说明 headquartered in the U.S.）",
+      "类别": "直接竞品：调查数据内嵌生成式/Agentic AI 助手",
+      "核心功能": [
+        "语义搜索、自然语言查询、摘要、可视化、关系/模式和异常提示",
+        "2025-02-11 官方公布 Agentic AI 迭代；2026-04-30 文章写已嵌入 PLX 并 available now",
+        "强调 analyst-in-the-loop，AI 输出区别于源数据、透明与审计；不以泛用聊天工具替代刑侦判断"
+      ],
+      "功能重合": {
+        "卷宗摘要": "明确：summarizations / detailed summaries",
+        "时间线": "明确文字主张：PLX CoAnalyst 可呈现 relationships、timelines、key details；可视化粒度未实测",
+        "关系图": "部分/明确主张：数据可视化、匿名案例 network diagrams；PLX UI 未实测",
+        "矛盾检查": "部分：anomaly detection；没有专门证言矛盾能力证据",
+        "证据引用": "部分：输出/源数据区分、auditability；逐答案 citation 回链尚未确认"
+      },
+      "部署与可用性": "CoAnalyst for PLX 官方写 available now；本轮没有拿到 CoAnalyst 专属云/本地/完全离线部署文档，不能从 PLX 或其他 Penlink 产品的部署形态继承。2024-05-15 首发时间只有搜索线索，相关发布页访问受限，不作为已读正文的确认日期。",
+      "客户与采购证据": [
+        {
+          "层级": "C：无法独立核验的匿名案例",
+          "内容": "2025-06-18 官网称三个 real-world examples，涵盖刑事调查，但没有机构、案号、执法机关自身发布或合同。只能按匿名厂商主张收录，不能据此宣称已在具名警局规模部署或可复现破案效果。",
+          "来源": [
+            "PEN04"
+          ]
+        },
+        {
+          "层级": "D：官方发布与产品可用性",
+          "内容": "2025 Agentic 发布与 2026 PLX 集成是产品存在/可获得证据，不是政府客户采购证明。",
+          "来源": [
+            "PEN02",
+            "PEN03"
+          ]
+        }
+      ],
+      "未核实项": [
+        "具名机构 CoAnalyst 使用/采购",
+        "部署与数据驻留/中文能力",
+        "证据引用与矛盾分析的实际输出",
+        "2024 首发稿正文"
+      ],
+      "来源": [
+        "PEN01",
+        "PEN02",
+        "PEN03",
+        "PEN04"
+      ],
+      "正文读取": "是：CoAnalyst 产品、2025 发布、2026 PLX 文章及匿名例子全文；2024 首发页未成功读正文。"
+    },
+    {
+      "编号": "P09",
+      "产品名称": "Axon Draft One",
+      "厂商": "Axon",
+      "地区": "美国；本轮客户自述来自 Colorado 的 Arvada",
+      "类别": "相邻产品：警情/现场报告写作助手，不是完整破案 Agent",
+      "核心功能": [
+        "基于执法记录仪音频转写及警员补充上下文生成叙事报告草稿",
+        "人必须审阅、补填、签名，主管审批；可按事件/指控级别限制使用",
+        "并排核对原始视频/转写、AI 参与披露和使用事件审计"
+      ],
+      "功能重合": {
+        "卷宗摘要": "部分：单次/多次现场记录的草稿，不等于全案卷宗摘要",
+        "时间线": "部分：叙事报告可描述先后顺序；未证明跨证据案情时间线分析器",
+        "关系图": "未见",
+        "矛盾检查": "未见",
+        "证据引用": "部分：源录音/转写可并排审阅与审计；不等于每条报告断言的证据引用"
+      },
+      "部署与可用性": "产品与客户流程依赖 Axon 网络/证据系统，正文明确 audio 自动上传并转写；未见私有化/完全离线 Draft One。来源对原始 AI 草稿留存存在版本差异：产品页写不保存草稿本身的 event history，责任页写美国可选保留，须以实际地区/租户配置与合同核实，不能写“永不保存”或“全部默认保存”。",
+      "客户与采购证据": [
+        {
+          "层级": "A：政府客户自己说明使用",
+          "内容": "Arvada 市政府官网明确警局 utilizes Draft One，并说自 2025-09 起所有警员可选使用，必须培训、审核签名；这是实际部署自述，不是本轮购买合同/金额。",
+          "来源": [
+            "AXO04"
+          ]
+        },
+        {
+          "层级": "B：厂商具名客户",
+          "内容": "Lafayette PD 案例说明日常采用 Draft One 且警员审核编辑；时间节省为厂商案例陈述，不当作独立准确率/统一 ROI。",
+          "来源": [
+            "AXO03"
+          ]
+        },
+        {
+          "层级": "A：政府部门介绍与政策边界",
+          "内容": "DOJ COPS Office 2025-01 文章介绍 Draft One 的音频驱动流程；它是政府出版资料，但不是合同。文中当时明确不解析视频视觉内容，不能据此假设新版本功能完全未变。",
+          "来源": [
+            "AXO05"
+          ]
+        }
+      ],
+      "未核实项": [
+        "采购文件、实际费用与合同区域",
+        "草稿保留开关/时间及检方披露政策",
+        "中文、离线、多证据案情研判能力"
+      ],
+      "来源": [
+        "AXO01",
+        "AXO02",
+        "AXO03",
+        "AXO04",
+        "AXO05"
+      ],
+      "正文读取": "是：官方产品/责任页、客户案例、Arvada 政府正文、DOJ 已索引正文；DOJ 直接 HTTP 重读返回404，保留该访问限制。"
+    },
+    {
+      "编号": "P10",
+      "产品名称": "Veritone Investigate / iDEMS（aiWARE 平台）",
+      "厂商": "Veritone",
+      "地区": "美国；官网列总部 Irvine, California，另有英国/以色列/澳大利亚办公室",
+      "类别": "相邻/平台竞品：多模态数字证据管理、AI 索引与跨系统整合",
+      "核心功能": [
+        "Investigate 为证据管理与分析 hub；iDEMS 是多个公共部门 AI 应用的组合，不能把所有子模块都叫 Investigate Agent",
+        "开放架构摄取第三方证据、AI 处理、索引、关联、音视频资料检索与共享",
+        "aiWARE 编排认知与生成式模型；本调研只比较证据整理/分析，不展开身份识别或跟踪子模块"
+      ],
+      "功能重合": {
+        "卷宗摘要": "部分：认知/生成式处理明确；本轮没有足够具体证据证明全案卷宗摘要界面",
+        "时间线": "未核实 Investigate 专属案情时间线；其他子模块有时间关联不移植为此产品功能",
+        "关系图": "部分：correlated/analyzed 主张；原生刑事情报关系图未证",
+        "矛盾检查": "未见",
+        "证据引用": "部分：证据摄取/管理与索引；生成式回答逐条 citations 未证"
+      },
+      "部署与可用性": "官方新闻称 iDEMS 支持 secure clouds 与 on-premises systems；2025-04-17 稿写可放客户 public cloud tenant 或 secure data center。这是产品部署声明，不是所列每种模型均离线可用或中国公安合规证明。",
+      "客户与采购证据": [
+        {
+          "层级": "K：采购资格/渠道，非实际订单",
+          "内容": "2025-04-17 官方稿称 Investigate 获 DoD Tradewinds “Awardable” 状态。等于可被采购/评审状态，不等于 DoD 已授予 Investigate 订单；本轮未独立打开 marketplace 验证。",
+          "来源": [
+            "VER04"
+          ]
+        },
+        {
+          "层级": "D：具名官员表达潜在收益，不能当客户上线",
+          "内容": "iDEMS 集成稿引用 Beverly Hills Police Chief 的句子为“would benefit from”，是潜在价值表达；这段不能证明 BHPD 已部署/采购 Investigate 或 iDEMS。",
+          "来源": [
+            "VER05"
+          ]
+        }
+      ],
+      "未核实项": [
+        "具名 Investigate/iDEMS 警方部署与原始采购合同",
+        "实际多模态/引用/关系图输出与模型离线清单",
+        "Tradewinds 条目/订单原件",
+        "“10.09.2024”发布日期字符串的日期顺序"
+      ],
+      "来源": [
+        "VER01",
+        "VER02",
+        "VER04",
+        "VER05",
+        "VER06"
+      ],
+      "正文读取": "是：官方产品、公共部门页、集成/marketplace 发布与公司页；不把仅 RIPA/Contact 或其他子模块的采购当 iDEMS 证据。"
+    }
+  ],
+  "来源": [
+    {
+      "来源编号": "AXO01",
+      "标题": "Draft One - Axon",
+      "URL": "https://www.axon.com/products/draft-one",
+      "请求URL": "https://www.axon.com/products/draft-one",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Review your draft alongside the original footage and transcript, all in one view, to quickly verify details.",
+          "中文释义": "支持并排看原始记录与转写核对草稿，而不是无审核提交。"
+        },
+        {
+          "原文": "without storing the draft itself.",
+          "中文释义": "该产品页对草稿留存的表述与责任页可选保留说法不一致，需要区域/版本核对。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-AXO01.md",
+      "涉及产品": [
+        "P09"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "AXO02",
+      "标题": "Draft One - Axon.com",
+      "URL": "https://www.axon.com/responsibility/draft-one",
+      "请求URL": "https://www.axon.com/responsibility/draft-one",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "agencies can optionally retain AI-generated drafts for additional auditing and oversight.",
+          "中文释义": "责任页面写可选保留 AI 草稿，与产品页旧留存表述需要按租户版本进一步核对。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-AXO02.md",
+      "涉及产品": [
+        "P09"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "AXO03",
+      "标题": "How Lafayette PD used Draft One to help officers spend more time in the community",
+      "URL": "https://www.axon.com/resources/how-lafayette-pd-used-draft-one",
+      "请求URL": "https://www.axon.com/resources/how-lafayette-pd-used-draft-one",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商具名客户案例",
+      "证据层级": "B：厂商具名客户或合同发布（非独立合同原件）",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "After AI generates the narrative, the officer is required to review, edit and approve the final report.",
+          "中文释义": "Lafayette 案例也要求警员审阅、编辑并批准最终报告。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-AXO03.md",
+      "涉及产品": [
+        "P09"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "AXO04",
+      "标题": "Axon Draft One | Arvada, CO",
+      "URL": "https://www.arvadaco.gov/1531/Axon-Draft-One",
+      "请求URL": "https://www.arvadaco.gov/1531/Axon-Draft-One",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "部署日期描述": "As of September 2025",
+        "依据": "客户页面无发布日期；2025-09 仅为正文描述的使用时点"
+      },
+      "来源类型": "政府合同/会议/客户公开资料",
+      "证据层级": "A：政府原始材料",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "The Arvada Police Department utilizes Axon Draft One",
+          "中文释义": "Arvada 政府官网自行确认实际使用，强于厂商 Demo。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-AXO04.md",
+      "涉及产品": [
+        "P09"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "AXO05",
+      "标题": "Using AI to Write Police Reports",
+      "URL": "https://cops.usdoj.gov/html/dispatch/01-2025/ai_reports.html",
+      "请求URL": "https://cops.usdoj.gov/html/dispatch/01-2025/ai_reports.html",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2025-01",
+        "依据": "政府期刊正文 January 2025 | Volume 18 | Issue 1；未猜具体日"
+      },
+      "来源类型": "政府合同/会议/客户公开资料",
+      "证据层级": "A：政府原始材料",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读检索/抽取服务返回的政府正文，内容在人员访谈处截断；直接 HTTP 复读返回404。保留来源与访问方式，不假装完整全文或当前版本政策。",
+      "关键摘录": [
+        {
+          "原文": "The AI tools are not able to parse or summarize the video’s visual content.",
+          "中文释义": "2025-01 DOJ 介绍当时版本为音频驱动，不能当完整多模态卷宗 Agent。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-AXO05.md",
+      "涉及产品": [
+        "P09"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "CEL01",
+      "标题": "Cellebrite Genesis - Agentic AI for Investigations",
+      "URL": "https://cellebrite.com/en/products/cellebrite-genesis/",
+      "请求URL": "https://cellebrite.com/en/products/cellebrite-genesis/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Question the evidence in plain language to uncover relationships, timelines, entities, patterns, contradictions and cross-file connections.",
+          "中文释义": "自然语言询问证据，发现关系、时间线、实体、模式、矛盾与跨文件连接。"
+        },
+        {
+          "原文": "Because Genesis is cloud-based, you can get started quickly without deploying infrastructure.",
+          "中文释义": "Genesis 专属 FAQ 明确云产品形态。"
+        },
+        {
+          "原文": "Every response links back to source material",
+          "中文释义": "官方主张每个回答回链源材料；未实测定位粒度。"
+        },
+        {
+          "原文": "No. Customer data is not used to train or improve models.",
+          "中文释义": "厂商声明客户数据不用于模型训练或改进；仍需合同与技术验收。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-CEL01.md",
+      "涉及产品": [
+        "P01",
+        "P02"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "CEL02",
+      "标题": "Multi-Device Investigative Analytics Platform | Cellebrite",
+      "URL": "https://cellebrite.com/en/products/pathfinder/",
+      "请求URL": "https://cellebrite.com/en/products/pathfinder/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "It can be deployed on-premise — as a virtual machine or physical server — or in the cloud via AWS VPC.",
+          "中文释义": "Pathfinder 明确可部署在本地虚拟机/实体服务器或 AWS VPC；此证明不适用于 Genesis。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-CEL02.md",
+      "涉及产品": [
+        "P02"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "CEL03",
+      "标题": "Digital Evidence Management Software | Cellebrite",
+      "URL": "https://cellebrite.com/en/products/guardian/",
+      "请求URL": "https://cellebrite.com/en/products/guardian/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Guardian integrates natively with Cellebrite Inseyets (UFED and Physical Analyzer).",
+          "中文释义": "Guardian 与 Inseyets（UFED 和 Physical Analyzer）原生集成；角色是取证数据输入而非同一个 AI 助手。"
+        },
+        {
+          "原文": "Guardian is cloud-native digital evidence management software built for investigations.",
+          "中文释义": "Guardian 本体是云原生数字证据管理，不是移动端提取工具。"
+        },
+        {
+          "原文": "Guardian Collaborate is available",
+          "中文释义": "FedRAMP 说明作用于 Guardian Collaborate 特定联邦环境，不能扩张到全套产品。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-CEL03.md",
+      "涉及产品": [
+        "P02"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "CEL04",
+      "标题": "Guardian Investigate: AI Investigation Management - Cellebrite",
+      "URL": "https://cellebrite.com/en/products/guardian/guardian-investigate/",
+      "请求URL": "https://cellebrite.com/en/products/guardian/guardian-investigate/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Guardian Investigate empowers teams to manage high-profile incidents, major crimes and cold cases so they can quickly review evidence, summarize documents, spot inconsistencies and connect the dots.",
+          "中文释义": "Guardian Investigate 支持证据审阅、文档摘要与不一致提示，覆盖重大案/冷案调查管理。"
+        },
+        {
+          "原文": "Guardian Investigate provides a secure, cloud-based investigation management solution",
+          "中文释义": "Investigate 明确为云端调查管理。"
+        },
+        {
+          "原文": "Create a timeline of case details and relevant evidence",
+          "中文释义": "明确时间线能力。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-CEL04.md",
+      "涉及产品": [
+        "P02"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "CEL05",
+      "标题": "The New Age of Investigations: Cellebrite’s Journey to Genesis",
+      "URL": "https://cellebrite.com/en/blog/the-new-age-of-investigations-cellebrites-journey-to-genesis/",
+      "请求URL": "https://cellebrite.com/en/blog/the-new-age-of-investigations-cellebrites-journey-to-genesis/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "可见产品可用性日期": "early access March 2026；GA June 2026",
+        "依据": "正文产品阶段日期，不等于该文章初发日期"
+      },
+      "来源类型": "厂商具名客户案例",
+      "证据层级": "B：厂商具名客户或合同发布（非独立合同原件）",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "– Lt. Jim Hill, Lab Director, Ocean County Prosecutor’s Office.",
+          "中文释义": "具名客户来自 Ocean County 检察官办公室实验室；只能认定为厂商刊载的客户证言。"
+        },
+        {
+          "原文": "first introduced in early access in March 2026",
+          "中文释义": "早期访问于2026年3月引入。"
+        },
+        {
+          "原文": "generally available",
+          "中文释义": "同文说明于2026年6月进入一般可用；首发 early access 稿不应误当 GA。"
+        },
+        {
+          "原文": "Lt. Jerod K. Abshire of the Digital Forensics Unit with the Calcasieu Parish Sheriff’s Office.",
+          "中文释义": "另一个具名案例来自 Calcasieu Parish 警长部门。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-CEL05.md",
+      "涉及产品": [
+        "P01"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "CEL06",
+      "标题": "Agentic AI for Digital Investigations",
+      "URL": "https://cellebrite.com/en/resources/press-releases/cellebrite-launches-genesis-agentic-ai-for-digital-investigations-cellebrite/",
+      "请求URL": "https://cellebrite.com/en/resources/press-releases/cellebrite-launches-genesis-agentic-ai-for-digital-investigations-cellebrite/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2026-03-16",
+        "依据": "官方发布稿正文 dateline；early access 日期"
+      },
+      "来源类型": "厂商发布稿",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Availability:",
+          "中文释义": "发布稿明确为 early access，不能只凭首发稿认定全面正式开放。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-CEL06.md",
+      "涉及产品": [
+        "P01"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "DAT01",
+      "标题": "Law Enforcement Intelligence Software powered by Graph and AI",
+      "URL": "https://datawalk.com/industries/law-enforcement/",
+      "请求URL": "https://datawalk.com/industries/law-enforcement/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Leverage built-in automation and LLM-generated summaries to streamline reporting",
+          "中文释义": "执法方案明确使用内置自动化和 LLM 生成摘要。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-DAT01.md",
+      "涉及产品": [
+        "P07"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "DAT02",
+      "标题": "Case Study: Federal Police Agency Sees Spectacular Results With DataWalk 10-Week Project",
+      "URL": "https://datawalk.com/case-study-federal-police-agency/",
+      "请求URL": "https://datawalk.com/case-study-federal-police-agency/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商匿名案例",
+      "证据层级": "C：匿名厂商案例",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "During the project, Generative AI has been used to extract entities from text, transcript audio files, and generate a short summary for transcription",
+          "中文释义": "匿名警方案例明确 GenAI 用于文本实体提取、音频转写和摘要；这不是政府采购原件。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-DAT02.md",
+      "涉及产品": [
+        "P07"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "DAT04",
+      "标题": "DataWalk: Unified Graph + AI Investigations Platform for Financial Crime & Public Safety",
+      "URL": "https://datawalk.com/company/",
+      "请求URL": "https://datawalk.com/company/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2025-11-10",
+        "依据": "article:published_time 元数据；公司页内容可后续变动",
+        "修改日期": "2025-11-20"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "The European Office",
+          "中文释义": "公司正文列波兰 Wroclaw 的 DataWalk S.A. 及美国办公室，支撑地区归属。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-DAT04.md",
+      "涉及产品": [
+        "P07"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "DAT06",
+      "标题": "Contract Vehicles | DataWalk",
+      "URL": "https://datawalk.com/contract-vehicles/",
+      "请求URL": "https://datawalk.com/contract-vehicles/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "K：采购渠道/资格声明，非订单",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "All DOJ agencies including FBI, DEA, ATF, BOP, OJP and others can utilize this contract to procure analytical services and DataWalk products.",
+          "中文释义": "可使用采购渠道不等于每个 DOJ 单位已购买 DataWalk。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-DAT06.md",
+      "涉及产品": [
+        "P07"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "DAT07",
+      "标题": "Anderson Police Department Selects DataWalk",
+      "URL": "https://datawalk.com/anderson-police-department-selects-datawalk/",
+      "请求URL": "https://datawalk.com/anderson-police-department-selects-datawalk/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2019-10-16",
+        "依据": "厂商正文与 article:published_time；不把 2024 元数据修改日期当新客户公告",
+        "修改日期": "2024-11-26"
+      },
+      "来源类型": "厂商发布稿",
+      "证据层级": "B：厂商具名客户或合同发布（非独立合同原件）",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Anderson (SC) Police Department has selected DataWalk",
+          "中文释义": "具名 Anderson 警局选择 DataWalk 的厂商公告；不证明新生成式 AI 的当前使用。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-DAT07.md",
+      "涉及产品": [
+        "P07"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "DAT08",
+      "标题": "DataWalk Retained by the U.S. Department of Justice to Power Landmark Financial Crime Investigations",
+      "URL": "https://datawalk.com/datawalk-retained-by-the-u-s-department-of-justice-to-power-landmark-financial-crime-investigations/",
+      "请求URL": "https://datawalk.com/datawalk-retained-by-the-u-s-department-of-justice-to-power-landmark-financial-crime-investigations/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2026-02-04",
+        "依据": "正文与 article:published_time",
+        "修改日期": "2026-03-11"
+      },
+      "来源类型": "厂商发布稿",
+      "证据层级": "B：厂商具名客户或合同发布（非独立合同原件）",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "as part of a multi-year contract extension awarded to Research Innovations Incorporated (RII).",
+          "中文释义": "2026 厂商稿声称 DOJ 项目主承包商 RII 获延续合同，尚缺政府授标原件。"
+        },
+        {
+          "原文": "Since 2019, RII has utilized DataWalk as a key component",
+          "中文释义": "厂商把 DataWalk 描述为自2019年在 RII/DOJ SIFT 环境的组件；未独立查到政府授标原件。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-DAT08.md",
+      "涉及产品": [
+        "P07"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "DAT09",
+      "标题": "Product Overview | DataWalk",
+      "URL": "https://datawalk.com/product/",
+      "请求URL": "https://datawalk.com/product/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "修改日期": "2025-02-27",
+        "依据": "只有 article:modified_time，未见初次发布日期"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Ensure full lineage,",
+          "中文释义": "产品强调血缘、可解释、可复现和监控；尚不足以证明 LLM 每句话给出证据引用。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-DAT09.md",
+      "涉及产品": [
+        "P07"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "GOV11",
+      "标题": "Digital Forensics Software Renewal for Cellebrite Software",
+      "URL": "https://find-tender.service.gov.uk/Notice/016210-2025",
+      "请求URL": "https://www.find-tender.service.gov.uk/Notice/016210-2025",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2025-04-22",
+        "依据": "政府 notice 搜索索引可见 Published 22 April 2025, 12:28pm；抽取正文保留合同内容但省略页眉；合同签署日期为2025-03-31（不是发布日期）"
+      },
+      "来源类型": "政府合同/会议/客户公开资料",
+      "证据层级": "A：政府原始材料",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "原始政府 notice 提取可读合同正文；直接 HTTP 曾403、PDF子路径404。政府页眉发布日期来自搜索索引，合同签署和条款由正文证实。",
+      "关键摘录": [
+        {
+          "原文": "These tools are embedded within our Standard Operating Procedures and Working Instructions.",
+          "中文释义": "Leicestershire 警方的正式合同说明既有 Cellebrite 取证工具已嵌入 SOP/工作指引，替换涉及再认可与培训。"
+        },
+        {
+          "原文": "x 5 Inseyets On-Prem Pro",
+          "中文释义": "合同清单证明 Inseyets 取证产品具体采购。"
+        },
+        {
+          "原文": "£273,906.58 excluding VAT £328,687.90 including VAT",
+          "中文释义": "整体多产品续约合同的金额，不是 Genesis 或单产品标准报价。"
+        },
+        {
+          "原文": "Date signed 31 March 2025",
+          "中文释义": "已签合同，不是招标计划/试点。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-GOV11.md",
+      "涉及产品": [
+        "P02"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "GOV12",
+      "标题": "(Public Pack)Minutes - Appendix 1 - Transcript - Q&A with MOPAC Minutes Supplement  for Police and Crime Committee, 17/06/2026 10:00",
+      "URL": "https://www.london.gov.uk/about-us/londonassembly/meetings/documents/b31762/Minutes%20-%20Appendix%201%20-%20Transcript%20-%20QA%20with%20MOPAC%20Wednesday%2017-Jun-2026%2010.00%20Police%20and%20Crime%20Co.pdf?T=9",
+      "请求URL": "https://london.gov.uk/about-us/londonassembly/meetings/documents/b31762/Minutes%20-%20Appendix%201%20-%20Transcript%20-%20QA%20with%20MOPAC%20Wednesday%2017-Jun-2026%2010.00%20Police%20and%20Crime%20Co.pdf?T=9",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "文档日期": "2026-06-17",
+        "依据": "PDF 逐字稿首页会议日期；未把会议日期当上网发布日期"
+      },
+      "来源类型": "政府合同/会议/客户公开资料",
+      "证据层级": "A：政府原始材料",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已阅读含 Palantir 采购问题的 PDF 前段（含第1—7页）；抽取文本其余部分有省略，对非 Palantir 议程不作结论。",
+      "关键摘录": [
+        {
+          "原文": "there is no system in line with the procurement that was coming forward in current use.",
+          "中文释义": "伦敦政府逐字稿明确拟议采购对应系统没有在用；下一段区分已有单独 pilot。"
+        },
+        {
+          "原文": "OK, because that is a separate pilot.",
+          "中文释义": "议会逐字稿第5页区分另一个试点，不是拟议大合同系统已在用。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-GOV12.md",
+      "涉及产品": [
+        "P04"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "GOV13",
+      "标题": "Police and Crime Committee Letter on tough choices",
+      "URL": "https://london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-work/london-assembly-publications/police-and-crime-committee-letter-tough-choices",
+      "请求URL": "https://london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-work/london-assembly-publications/police-and-crime-committee-letter-tough-choices",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "政府合同/会议/客户公开资料",
+      "证据层级": "A：政府原始材料",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "following MOPAC's blocking of the Palantir contract",
+          "中文释义": "政府页面确认采购受阻，不能把拟议合同列为成功落地。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-GOV13.md",
+      "涉及产品": [
+        "P04"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "I201",
+      "标题": "i2 Group | Link analysis software | Discover, create & exploit actionable intelligence",
+      "URL": "https://i2group.com/",
+      "请求URL": "https://i2group.com/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "browser-dom",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "i2® Analyst's Notebook®",
+          "中文释义": "官网仍明确 Analyst’s Notebook 系列，不应杜撰正式 Copilot 名称。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-I201.md",
+      "涉及产品": [
+        "P06"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "I202",
+      "标题": "Transforming intelligence with i2: Ryan’s story | i2 Group",
+      "URL": "https://i2group.com/articles/transforming-intelligence-with-i2-ryans-story",
+      "请求URL": "https://i2group.com/articles/transforming-intelligence-with-i2-ryans-story",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商具名客户案例",
+      "证据层级": "B：厂商具名客户或合同发布（非独立合同原件）",
+      "是否读到正文": true,
+      "读取方式": "browser-dom",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "access their own data and the province‑wide repository via secure virtual desktops",
+          "中文释义": "具名客户故事说明自有数据和省级仓库通过安全虚拟桌面访问。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-I202.md",
+      "涉及产品": [
+        "P06"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "I203",
+      "标题": "i2 Analyst's Notebook - Discover and deliver actionable intelligence | i2",
+      "URL": "https://i2group.com/solutions/i2-analysts-notebook",
+      "请求URL": "https://i2group.com/solutions/i2-analysts-notebook",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。 抽取服务返回文本含省略标记。",
+      "关键摘录": [
+        {
+          "原文": "Model and visualize",
+          "中文释义": "官方产品对实体、链接、事件与时间线建模/可视化；它是传统可视分析竞品。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-I203.md",
+      "涉及产品": [
+        "P06"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "I204",
+      "标题": "Responsible AI | i2 Group",
+      "URL": "https://i2group.com/trust/responsible-ai",
+      "请求URL": "https://i2group.com/trust/responsible-ai",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "官方技术/治理文档",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Today, we are extending this foundation with machine learning and natural language capabilities, developed in close collaboration with our customers.",
+          "中文释义": "官网说明正扩展机器学习/自然语言能力；不能据此断言一个具名 Copilot 已正式销售。"
+        },
+        {
+          "原文": "AI supports analysis. It does not replace human judgement.",
+          "中文释义": "AI 辅助分析，不替代人类判断。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-I204.md",
+      "涉及产品": [
+        "P06"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "I205",
+      "标题": "About Us | i2 Group",
+      "URL": "https://i2group.com/about-i2",
+      "请求URL": "https://i2group.com/about-i2",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "In January 2022, i2 entered a new chapter when it became part of",
+          "中文释义": "现属 Harris Computer / Constellation；不要继续把 IBM 当当前厂商。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-I205.md",
+      "涉及产品": [
+        "P06"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "MAG01",
+      "标题": "Magnet AI for Digital Forensics | Magnet Forensics",
+      "URL": "https://www.magnetforensics.com/magnet-ai/",
+      "请求URL": "https://www.magnetforensics.com/magnet-ai/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。 抽取服务返回文本含省略标记。",
+      "关键摘录": [
+        {
+          "原文": "Every AI-generated insight remains grounded in verifiable evidence with built-in citation verification",
+          "中文释义": "厂商明确声明 AI 洞见基于可验证证据，并内置引用验证。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-MAG01.md",
+      "涉及产品": [
+        "P03"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "MAG02",
+      "标题": "Magnet Forensics Unveils Magnet AI for Investigations",
+      "URL": "https://www.magnetforensics.com/news/magnet-forensics-unveils-magnet-ai-advancing-the-next-era-of-digital-investigative-intelligence/",
+      "请求URL": "https://www.magnetforensics.com/news/magnet-forensics-unveils-magnet-ai-advancing-the-next-era-of-digital-investigative-intelligence/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2026-04-21",
+        "依据": "官方发布稿正文 dateline"
+      },
+      "来源类型": "厂商发布稿",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。 抽取服务返回文本含省略标记。",
+      "关键摘录": [
+        {
+          "原文": "It generates investigative leads — not conclusions — leaving investigative verification, analysis, and decision making firmly in the hands of human judgment.",
+          "中文释义": "产生调查线索而非结论，验证、分析和决策仍由人负责。"
+        },
+        {
+          "原文": "all grounded in verifiable citations linked directly to the source evidence.",
+          "中文释义": "结构化调查摘要带可验证引用，链接源证据。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-MAG02.md",
+      "涉及产品": [
+        "P03"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "MAG03",
+      "标题": "Magnet ATLAS Case Study - Kerr County",
+      "URL": "https://www.magnetforensics.com/wp-content/uploads/2022/08/MF_AXIOM_DVR-E_Greensboro_CaseStudy_8.5x11.pdf",
+      "请求URL": "https://www.magnetforensics.com/wp-content/uploads/2022/08/MF_AXIOM_DVR-E_Greensboro_CaseStudy_8.5x11.pdf",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "可见日期文本": "PDF URL 含 /2022/08/；搜索索引全文有 © 2022；不是已确认发布日期",
+        "依据": "不从 URL 或版权年份推断发布日期"
+      },
+      "来源类型": "厂商具名客户案例",
+      "证据层级": "B：厂商具名客户或合同发布（非独立合同原件）",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "抽取服务返回标题 Magnet ATLAS Case Study - Kerr County，与 PDF 文件名/正文的 Greensboro 内容不一致；只采用正文明确的机构/产品，不采用错误标题归属；PDF 部分正文被服务省略。",
+      "关键摘录": [
+        {
+          "原文": "pre-tagging images using Magnet.AI is the number one feature in AXIOM that accelerates his investigative process",
+          "中文释义": "Greensboro 案例里的 Magnet.AI 是 AXIOM 的历史图像预标注能力，不证明新 Intelligent Insights 已部署。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-MAG03.md",
+      "涉及产品": [
+        "P03"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "MAG04",
+      "标题": "Magnet Review",
+      "URL": "https://www.magnetforensics.com/products/magnet-review/",
+      "请求URL": "https://www.magnetforensics.com/products/magnet-review/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "当前产品页明确 early access 与地区限制，权重高于泛化发布稿 available。直接访问曾触发 Client Challenge；成功抽取的正文可读。",
+      "关键摘录": [
+        {
+          "原文": "Intelligent Insights early access is available in the U.S. and UK regions.",
+          "中文释义": "当前产品页限定 Intelligent Insights 早期开放为美国和英国区域。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-MAG04.md",
+      "涉及产品": [
+        "P03"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "MAG07",
+      "标题": "Metro Nashville Police Department Uses Magnet AUTOMATE to Eliminate Months-Long Device Backlog in Days, Accelerating the Pursuit of Justice - Magnet Forensics",
+      "URL": "https://www.magnetforensics.com/news/metro-nashville-police-department-uses-magnet-automate-to-eliminate-months-long-device-backlog-in-days-accelerating-the-pursuit-of-justice/",
+      "请求URL": "https://www.magnetforensics.com/news/metro-nashville-police-department-uses-magnet-automate-to-eliminate-months-long-device-backlog-in-days-accelerating-the-pursuit-of-justice/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2023-02-27",
+        "依据": "官方新闻页面可见 February 27, 2023"
+      },
+      "来源类型": "厂商发布稿",
+      "证据层级": "B：厂商具名客户或合同发布（非独立合同原件）",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。 抽取服务返回文本含省略标记。",
+      "关键摘录": [
+        {
+          "原文": "forensics unit completely eliminated a months-long violent crimes case backlog",
+          "中文释义": "具名 Nashville 客户的证据只覆盖 AUTOMATE 取证编排，非自动破案 Agent。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-MAG07.md",
+      "涉及产品": [
+        "P03"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "PAL01",
+      "标题": "Palantir Gotham Europa",
+      "URL": "https://www.palantir.com/platforms/gotham/europa/",
+      "请求URL": "https://www.palantir.com/platforms/gotham/europa/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。 抽取服务返回文本含省略标记。",
+      "关键摘录": [
+        {
+          "原文": "Organisations can adopt hybrid hosting solutions and plug in preferred local AI vendors at the place where each vendor can deliver the most value.",
+          "中文释义": "Gotham Europa 的官方部署声明含混合托管与可选本地 AI 厂商。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-PAL01.md",
+      "涉及产品": [
+        "P04"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "PAL03",
+      "标题": "Gotham | Palantir",
+      "URL": "https://www.palantir.com/platforms/gotham/",
+      "请求URL": "https://www.palantir.com/platforms/gotham/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "官网当前以国防/全球决策展示为主，不能从军事能力反推警方刑侦产品特性。",
+      "关键摘录": [
+        {
+          "原文": "The Operating System for Global Decision Making.",
+          "中文释义": "当前 Gotham 页面重点为全球决策/国防，不应由首页泛化出完整刑侦助手功能。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-PAL03.md",
+      "涉及产品": [
+        "P04"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "PAL05",
+      "标题": "Innenminister zur Plenardebatte über die Plattform HessenData | Hessen Innen",
+      "URL": "https://innen.hessen.de/presse/innenminister-zur-plenardebatte-ueber-die-plattform-hessendata",
+      "请求URL": "https://innen.hessen.de/presse/innenminister-zur-plenardebatte-ueber-die-plattform-hessendata",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2025-09-11",
+        "依据": "政府页面正文与 time datetime"
+      },
+      "来源类型": "政府合同/会议/客户公开资料",
+      "证据层级": "A：政府原始材料",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读完整政府正文；部署/数据安全与采购论点是内政部门自述，不等于独立安全评估。",
+      "关键摘录": [
+        {
+          "原文": "Die Server und die Analysedaten befinden sich in gesicherten Rechenzentren der Hessischen Zentrale für Datenverarbeitung.",
+          "中文释义": "德国 Hessen 内政部明确：服务器及分析数据位于该州中央数据处理机构的安全数据中心。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-PAL05.md",
+      "涉及产品": [
+        "P04"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "PAL06",
+      "标题": "Overview • AIP • Palantir",
+      "URL": "https://www.palantir.com/docs/foundry/aip/overview/",
+      "请求URL": "https://www.palantir.com/docs/foundry/aip/overview/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "官方技术/治理文档",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。 抽取服务返回文本含省略标记。",
+      "关键摘录": [
+        {
+          "原文": "AIP's builder tools like AIP Logic, AIP Chatbot Studio (formerly known as AIP Agent Studio), and AIP Evals enable the development of production-ready AI-powered workflows, agents, and functions on top of the Ontology and developer toolchain.",
+          "中文释义": "AIP 可在 Ontology 上构建工作流和 Agent；文档中的正式名称为 Chatbot Studio，原称 Agent Studio。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-PAL06.md",
+      "涉及产品": [
+        "P04"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "PEN01",
+      "标题": "CoAnalyst: Generative AI for Digital Investigations | Penlink",
+      "URL": "https://www.penlink.com/platform/coanalyst/",
+      "请求URL": "https://www.penlink.com/platform/coanalyst/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "修改日期": "2026-04-14",
+        "依据": "article:modified_time，仅为改动时间"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "From semantic search and summarizations to anomalies detection and pattern recognition",
+          "中文释义": "CoAnalyst 官方列语义搜索、摘要、异常与模式识别。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-PEN01.md",
+      "涉及产品": [
+        "P08"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "PEN02",
+      "标题": "Penlink Unveils the Next Evolution of CoAnalyst: Agentic AI for Digital Investigations",
+      "URL": "https://www.penlink.com/press-release/agentic-ai-for-digital-investigations/",
+      "请求URL": "https://www.penlink.com/press-release/agentic-ai-for-digital-investigations/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2025-02-11",
+        "依据": "Date Posted: February 11th, 2025"
+      },
+      "来源类型": "厂商发布稿",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "CoAnalyst automates complex investigative workflows",
+          "中文释义": "2025 官方宣布 Agentic 迭代，但不是具名警方验收证据。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-PEN02.md",
+      "涉及产品": [
+        "P08"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "PEN03",
+      "标题": "CoAnalyst for PLX: Turning Digital Evidence into Decisive Action",
+      "URL": "https://www.penlink.com/blog/coanalyst-plx-digital-evidence/",
+      "请求URL": "https://www.penlink.com/blog/coanalyst-plx-digital-evidence/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2026-04-30",
+        "依据": "Date Posted: April 30th, 2026"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Outputs are clearly distinguished from source data, and workflows are designed to support transparency, auditability, and defensibility.",
+          "中文释义": "厂商说明 AI 输出与源数据区分、支持透明和审计；精确引用回链粒度未证。"
+        },
+        {
+          "原文": "CoAnalyst for PLX",
+          "中文释义": "2026文章确认 PLX 内嵌版本存在，仍需验收具体功能。"
+        },
+        {
+          "原文": "is available now.",
+          "中文释义": "厂商声明可获得；不是客户采购证明。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-PEN03.md",
+      "涉及产品": [
+        "P08"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "PEN04",
+      "标题": "CoAnalyst in Action: Real-World Examples of AI-Powered Investigations | Blog | Penlink",
+      "URL": "https://www.penlink.com/blog/coanalyst-in-action/",
+      "请求URL": "https://www.penlink.com/blog/coanalyst-in-action/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2025-06-18",
+        "依据": "正文 Date Posted 与 article:published_time",
+        "修改日期": "2026-05-28",
+        "修改日期依据": "article:modified_time 元数据，不替代初次发布日期"
+      },
+      "来源类型": "厂商匿名案例",
+      "证据层级": "C：匿名厂商案例",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Below are three real-world examples of how CoAnalyst has helped investigative teams move cases forward.",
+          "中文释义": "厂商声称真实例子，但正文未具名机构/案号，不能当可独立核实的落地。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-PEN04.md",
+      "涉及产品": [
+        "P08"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "SIR01",
+      "标题": "SIREN INVESTIGATE - SIREN",
+      "URL": "https://siren.io/siren-investigate/",
+      "请求URL": "https://siren.io/siren-investigate/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Geo/Temporal analysis for multi-layer, interactive maps and time analysis.",
+          "中文释义": "Siren Investigate 支持地理/时间分析；不能自动等同 K9 完整卷宗时间线。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-SIR01.md",
+      "涉及产品": [
+        "P05"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "SIR02",
+      "标题": "Case Study: Disconnected data in Criminal Investigations - SIREN",
+      "URL": "https://siren.io/case-studies/disconnected-data-in-criminal-investigations/",
+      "请求URL": "https://siren.io/case-studies/disconnected-data-in-criminal-investigations/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商匿名案例",
+      "证据层级": "C：匿名厂商案例",
+      "是否读到正文": true,
+      "读取方式": "browser-dom",
+      "正文覆盖说明": "浏览器首个共享会话曾发生域名不匹配，数据丢弃；隔离会话确认 siren.io 的准确目标URL后重新读正文。",
+      "关键摘录": [
+        {
+          "原文": "A busy US county sheriff’s department’s serious crime and policing intelligence team",
+          "中文释义": "实施案例没有县名/机构名称，因此仅列匿名厂商案例。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-SIR02.md",
+      "涉及产品": [
+        "P05"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "SIR03",
+      "标题": "Law Enforcement and Intelligence Industry- SIREN",
+      "URL": "https://siren.io/law-enforcement-and-intelligence/",
+      "请求URL": "https://siren.io/law-enforcement-and-intelligence/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "browser-dom",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "integrated capabilities including search & data discovery, analytics, big data monitoring, and advanced link analysis.",
+          "中文释义": "执法方案提供搜索、数据发现、分析与关系分析。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-SIR03.md",
+      "涉及产品": [
+        "P05"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "SIR06",
+      "标题": "Siren AI plugin for Investigate :: SIREN DOCS",
+      "URL": "https://docs.siren.io/siren-ai/2.1/siren-ai/c_introduction.html",
+      "请求URL": "https://docs.siren.io/siren-ai/2.1/siren-ai/c_introduction.html",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "官方技术/治理文档",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "真实可安装插件与API文档，不是本轮实际产品测试；仅证实产品能力描述。",
+      "关键摘录": [
+        {
+          "原文": "K9 Companion: AI chat assistant enabling intelligent, context-aware conversations by leveraging the configured LLM provider.",
+          "中文释义": "K9 是 Siren AI 插件内的对话助手，接入配置的 LLM。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-SIR06.md",
+      "涉及产品": [
+        "P05"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "SIR07",
+      "标题": "K9 Companion :: SIREN DOCS",
+      "URL": "https://docs.siren.io/siren-ai/2.1/siren-ai/t_k9_chat_companion.html",
+      "请求URL": "https://docs.siren.io/siren-ai/2.1/siren-ai/t_k9_chat_companion.html",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "官方技术/治理文档",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "the graph data is automatically attached to the conversation.",
+          "中文释义": "在图谱内使用 K9 时图谱数据会附入会话；必须核对其实际模型服务与数据出域。"
+        },
+        {
+          "原文": "The data sent to the LLM consists of the graph name, nodes, edges and groups.",
+          "中文释义": "文档明确模型接收图谱名字、节点、边与组；数据出域是采购验收点。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-SIR07.md",
+      "涉及产品": [
+        "P05"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "SIR08",
+      "标题": "Installing the Siren AI plugin :: SIREN DOCS",
+      "URL": "https://docs.siren.io/siren-ai/2.1/siren-ai/t_installing.html",
+      "请求URL": "https://docs.siren.io/siren-ai/2.1/siren-ai/t_installing.html",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "官方技术/治理文档",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "The Siren AI plugin can be installed by downloading the plugin zip file and installing it using the Investigate CLI.",
+          "中文释义": "公开文档描述可安装的插件，不是只有营销 Demo；本调研不提供调查操作教程。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-SIR08.md",
+      "涉及产品": [
+        "P05"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "SIR09",
+      "标题": "OpenAI compatible configuration :: SIREN DOCS",
+      "URL": "https://docs.siren.io/siren-ai/2.1/siren-ai/t_configuring_openai_compat.html",
+      "请求URL": "https://docs.siren.io/siren-ai/2.1/siren-ai/t_configuring_openai_compat.html",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "官方技术/治理文档",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Examples of providers that use this API spec include Ollama, llama.cpp, vLLM, TensorRT-LLM, Scaleway, and more.",
+          "中文释义": "公开文档支持 OpenAI-compatible 模型接口，并明确本地模型服务示例。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-SIR09.md",
+      "涉及产品": [
+        "P05"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "SIR10",
+      "标题": "Introduction to Siren Platform :: SIREN DOCS",
+      "URL": "https://docs.siren.io/siren-platform-user-guide/16.0/index.html",
+      "请求URL": "https://docs.siren.io/siren-platform-user-guide/16.0/index.html",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "官方技术/治理文档",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "It consists of the user interface component,",
+          "中文释义": "当前平台文档确认 Investigate 前端和 Federate 后端；可与营销页的旧版本文案区别。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-SIR10.md",
+      "涉及产品": [
+        "P05"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "VER01",
+      "标题": "Investigate - Veritone",
+      "URL": "https://www.veritone.com/applications/investigate/",
+      "请求URL": "https://www.veritone.com/applications/investigate/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "a single, secured, AI-powered hub",
+          "中文释义": "Investigate 是安全 AI 证据处理 hub；并未据此核实完整破案 Agent。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-VER01.md",
+      "涉及产品": [
+        "P10"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "VER02",
+      "标题": "AI for State & Local Government - Veritone",
+      "URL": "https://www.veritone.com/industries/state-local-government/",
+      "请求URL": "https://www.veritone.com/industries/state-local-government/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。 抽取服务返回文本含省略标记。",
+      "关键摘录": [
+        {
+          "原文": "Our solutions are cloud agnostic, FedRAMP Authorized, and support CJIS compliance.",
+          "中文释义": "此为厂商公共部门组合声明；必须进一步核对具体产品/区域/认证原件，非中国公安资质。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-VER02.md",
+      "涉及产品": [
+        "P10"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "VER04",
+      "标题": "Veritone Achieves “Awardable” Status on DoD’s Tradewinds Solutions Marketplace with AI-Powered Investigate Solution - Veritone",
+      "URL": "https://www.veritone.com/newsroom/press-releases/tradewinds-investigate/",
+      "请求URL": "https://www.veritone.com/newsroom/press-releases/tradewinds-investigate/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": "2025-04-17",
+        "依据": "可见日期 04.17.2025，数字17排除日月另一解析"
+      },
+      "来源类型": "厂商发布稿",
+      "证据层级": "K：采购渠道/资格声明，非订单",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。",
+      "关键摘录": [
+        {
+          "原文": "Veritone’s Investigate solution has been added to the Tradewinds Marketplace.",
+          "中文释义": "加入采购 marketplace / Awardable 不是已拿到政府订单。"
+        },
+        {
+          "原文": "within their public cloud tenant or in their secure data center.",
+          "中文释义": "官方稿描述客户云租户/安全数据中心部署。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-VER04.md",
+      "涉及产品": [
+        "P10"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "VER05",
+      "标题": "Veritone Expands iDEMS Data Integrations to Enhance Public Safety and Law Enforcement Efficiency",
+      "URL": "https://www.veritone.com/newsroom/press-releases/idems-data-integrations/",
+      "请求URL": "https://www.veritone.com/newsroom/press-releases/idems-data-integrations/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "可见日期文本": "10.09.2024",
+        "依据": "新闻稿可见字符串，未凭此猜 10月9日/9月10日；保留原样"
+      },
+      "来源类型": "厂商发布稿",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "requests-beautifulsoup",
+      "正文覆盖说明": "使用 HTTP 读到完整稿，修复初次抽取省略掉 would benefit 的客户引用；该语气不能作为实际部署证明。日期字符串10.09.2024保留不猜。",
+      "关键摘录": [
+        {
+          "原文": "Beverly Hills PD would benefit from the ability to aggregate the data",
+          "中文释义": "Beverly Hills 警长说“将受益”，不能写成已部署 iDEMS 的具名客户。"
+        },
+        {
+          "原文": "currently available on secure clouds – AWS Marketplace, Azure Marketplace and FedRAMP Marketplace – and for on-premises systems.",
+          "中文释义": "厂商声明云端与本地部署；Marketplace 条目不等于实际订单或全模型离线。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-VER05.md",
+      "涉及产品": [
+        "P10"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    },
+    {
+      "来源编号": "VER06",
+      "标题": "About Us - Veritone",
+      "URL": "https://www.veritone.com/about-us/",
+      "请求URL": "https://www.veritone.com/about-us/",
+      "访问日期": "2026-10-08",
+      "发布时间": {
+        "日期": null,
+        "依据": "本轮未见可确认的发布日期；不以页脚年份、图片路径或版本号推断"
+      },
+      "来源类型": "厂商产品/公司/行业页面",
+      "证据层级": "D：官方产品/技术文档/发布，不等于客户已部署",
+      "是否读到正文": true,
+      "读取方式": "web_extract",
+      "正文覆盖说明": "已读返回正文；不是登录后产品实测。 抽取服务返回文本含省略标记。",
+      "关键摘录": [
+        {
+          "原文": "Veritone’s headquarters are in Irvine, California,",
+          "中文释义": "官网列美国总部和全球办公室，地区归属有正文依据。"
+        }
+      ],
+      "原文留档": "research-work/source-text/evidence-VER06.md",
+      "涉及产品": [
+        "P10"
+      ],
+      "原文留档说明": "仅本地核验用，全文留档不推送GitHub；仓库存短摘录、准确URL和读取状态。"
+    }
+  ],
+  "限制与待核验": [
+    "本轮检索非穷尽市场盘点：主搜索覆盖9个候选厂商与政府采购维度，补查5次未覆盖的官方采购/部署，另用已发现链接读正文；没有产品试用、登录验证或客户访谈。",
+    "部分站点触发403/CloudFront地理限制、反爬或正文抽取服务429；改用浏览器DOM/直接HTTP/官方技术文档。共享浏览器曾回到无关域名，已按目标域名及路径剔除，不纳入证据。",
+    "英国公共采购搜索页面GET/POST返回的关键词过滤不可靠（输入未保留/返回无关全部结果），故未用“0条”或返回总量判断该厂商无采购。最终只采用能读到准确目标正文的 notice。",
+    "部分抽取文本被服务省略；来源逐项标明。Magnet Greensboro PDF 的抽取标题误称 Kerr County，正文明确Greensboro，本报告采用正文，不混淆客户。",
+    "没有取得 Genesis、Guardian Investigate、Intelligent Insights、K9、CoAnalyst 的政府授标原件。传统工具真实采购不证明最新生成式模块已验收。",
+    "本轮没有核实中国采购可用性、公安资质、国产操作系统/数据库/密码适配、信创、涉密/等保认证、中文手写/OCR及检察/法院采信；国外CJIS/FedRAMP声明不能直接替代。",
+    "没有独立准确率、幻觉率、矛盾检出率、证据引用准确率或标准报价；厂商快多少、破案率多少等陈述不作对比基准。",
+    "AI只作为整理、检索、假设/线索生成助手；输出不是新证据、鉴定结论、证言或自动定罪。所有关键断言回到原始材料并由有资质人员复核。"
+  ]
+}

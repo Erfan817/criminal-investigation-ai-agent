@@ -1,0 +1,35 @@
+# 本仓库只保存公开来源调研、方案与明确标注的合成示例。
+# 私有仓库不是案件数据存储介质。
+research-work/
+data/
+cases/
+evidence/
+uploads/
+models/
+weights/
+logs/
+exports/
+backups/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.pdf
+*.docx
+*.xlsx
+*.mp4
+*.wav
+*.zip
+__pycache__/
+.venv/
+node_modules/
+target/
+dist/
+.DS_Store
